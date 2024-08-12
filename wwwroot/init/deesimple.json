@@ -1,0 +1,687 @@
+{
+	
+  "homeCamera": {
+    "north": 55.8,
+    "east": -0.8,
+    "south": 50,
+    "west": -15
+  },
+  "workbench": ["wo"],
+    "corsDomains" : [
+    "data.marine.ie",
+    "atlas.marine.ie",
+	"isde.ie",
+	"secure.dccae.gov.ie"
+  ],
+  "catalog": [
+    	 
+	{
+	  "type": "group",
+	  "isOpen": true,
+      "name": "Marine Institute",
+		 "members": [
+		 	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Administrative",
+			  "description": "Group containing boundary datasets",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Maritime Boundaries",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer"
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Monitoring Boundaries",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer"
+					},  
+			  ]
+			},
+				{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Biological",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Fish Species Distribution",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/FishSpeciesDistribution/MapServer"
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Inshore Fishing Activity",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
+					},
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Offshore Fishing Activity",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
+					},
+			  ]
+			},
+							{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Physical",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Geology",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer"
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Marine Geomorphology",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MarineGeomorphology/MapServer"
+					},
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Ocean Monitoring",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OceanMonitoring/MapServer"
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Offshore Energy",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OffshoreEnergy/MapServer"
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Ports and Shipping",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer"
+					},
+			  ]
+			}
+			]
+    },
+       
+	{
+      "type": "group",
+      "name": "National Parks and Wildlife Service",
+		"members": [
+		 	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Administrative",
+			  "description": "Group containing boundary datasets",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Designated Areas",
+					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/NPWSDesignatedAreas/MapServer"
+					},	
+			  ]
+			},
+			{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Habitats",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Site Specific Conservation Objectives SAC Habitats",
+					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSACHabitats/MapServer",
+					  "excludeMembers": ["SAC", "Bogs / Fens / Heath / Scrub", "Forests", "Grasslands"]
+					},
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Irish Coastal Lagoons 2007",
+					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/InventoryIrishCoastalLagoons2007ITM/MapServer"
+					},
+					
+			  ]
+			},
+				{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Species",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Site Specific Conservation Objectives SAC Species",
+					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSACSpecies/MapServer",
+					  "excludeMembers": ["SAC", "Non Vascular Plants", "Reptiles", "Vascular Plants"]
+					},
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Site Specific Conservation Objectives SPA Species",
+					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSPA/MapServer"
+					},		
+					
+			  ]
+			},
+			]
+    },
+  	{
+      "type": "group",
+      "name": "Environmental Protection Agency",
+      "members": [
+	   	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Administrative",
+			  "description": "Group containing boundary datasets",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Water Features",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WaterFeatures/MapServer"
+					},	
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Water Regions",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WaterRegions/MapServer"
+					}	
+			  ]
+			},
+	   	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Monitoring",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Bathing Water Quality",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/BathingWater/MapServer"
+					},	
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Urban Waste Water Treatment Plants",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/UWWT/MapServer"
+					},
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Water Framework Directive Protected Areas",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDRegisterofProtectedAreas/MapServer"
+					},	
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Water Framework Directive Risk Scores",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDRiskScores/MapServer"
+					},	
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Water Framework Directive Sataus",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDStatus/MapServer"
+					}	
+			  ]
+			},
+			  	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Licencing",
+			  "members": [
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Dumping at Sea",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/DumpingatSea/MapServer"
+					},	
+					{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Licenced Facilities",
+					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/LicenceandEnforcement/MapServer"
+					}	
+			  ]
+			}	  
+	  ]
+	    
+    }, 
+
+      	{
+      "type": "esri-group",
+      "name": "ICES",
+      "url": "https://gis.ices.dk/gis/rest/services/ICES_reference_layers"
+    }, 
+
+       	{
+      "type": "group",
+	  "isOpen": true,
+	  "name": "EMODnet Human Activities Data",
+	  "members": [
+			  {
+			  "type": "group",
+				"isOpen": false,
+				"name": "Aggregates",
+				"members": [
+				{
+							  "type": "wms",
+							  "name": "Aggregate Extraction Areas",
+							   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+							   "layers": "aggregates"
+							},
+							{
+							  "type": "wms",
+							  "name": "Aggregate Extraction Points",
+							   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+							   "layers": "aggregateareas"
+							}]},
+				{
+							"type": "group",
+							"isOpen": false,
+							"name": "Cables and Pipelines",
+							"members": [
+								{
+										  "type": "wms",
+										  "name": "Telecommunication Cables (Actual Routes)",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "telecablesactual"
+										},
+										{
+										  "type": "wms",
+										  "name": "Telecommunication Cables (Actual Routes)",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "cablesschematic"
+										},
+										{
+										  "type": "wms",
+										  "name": "Power Cables",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "powercables"
+										},
+										{
+										  "type": "wms",
+										  "name": "Pipelines",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "pipelines"
+										},
+										]
+			  },
+			  	{
+							"type": "group",
+							"isOpen": false,
+							"name": "Oil and Gas",
+							"members": [
+								{
+										  "type": "wms",
+										  "name": "Active Licences",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "activelicenses"
+										},
+										{
+										  "type": "wms",
+										  "name": "Boreholes",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "hydrocarbons"
+										},
+										{
+										  "type": "wms",
+										  "name": "Offshore Installations",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "platforms"
+										}
+										]
+			  },
+			  
+			  {
+							"type": "group",
+							"isOpen": false,
+							"name": "Coastal Infrastructure",
+							"members": [
+								{
+										  "type": "wms",
+										  "name": "Ports",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "portlocations"
+										},
+										{
+										  "type": "wms",
+										  "name": "Lighthouses",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "lighthouses"
+										},
+									]
+			  },
+			  {
+							"type": "group",
+							"isOpen": false,
+							"name": "Route Density 2021",
+							"members": [
+							{
+										  "type": "wms",
+										  "name": "All Vessel Types",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_All"
+										},
+										{
+										  "type": "wms",
+										  "name": "Cargo Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_01"
+										},
+										{
+										  "type": "wms",
+										  "name": "Fishing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_02"
+										},
+										{
+										  "type": "wms",
+										  "name": "Passenger Vessls",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_03"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tanker Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_04"
+										},
+										{
+										  "type": "wms",
+										  "name": "Other",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_yearly_rd_05"
+										},
+			  ]
+			  },
+
+			    {
+							"type": "group",
+							"isOpen": false,
+							"name": "Route Density 2020",
+							"members": [
+							{
+										  "type": "wms",
+										  "name": "All Vessel Types",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_All"
+										},
+										{
+										  "type": "wms",
+										  "name": "Cargo Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_01"
+										},
+										{
+										  "type": "wms",
+										  "name": "Fishing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_02"
+										},
+										{
+										  "type": "wms",
+										  "name": "Passenger Vessls",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_03"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tanker Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_04"
+										},
+										{
+										  "type": "wms",
+										  "name": "Other",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_yearly_rd_05"
+										},
+			  ]
+			  },
+			      
+			  				{
+							"type": "group",
+							"isOpen": false,
+							"name": "Shipping Density 2021",
+							"members": [
+								{
+										  "type": "wms",
+										  "name": "All Vessel Types 2021",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_All_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Fishing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_01_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Service Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_02_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Dredging or Underwater Ops Vessls",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_03_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Sailing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_04_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Pleasure Craft",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_05_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "High Speed Craft",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_06_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tug and Towing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_07_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Passenger Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_08_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Cargo Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_09_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tanker Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2021_st_10_avg"
+										},
+										]
+			  },
+			  {
+							"type": "group",
+							"isOpen": false,
+							"name": "Shipping Density 2020",
+							"members": [
+								{
+										  "type": "wms",
+										  "name": "All Vessel Types 2021",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_All_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Fishing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_01_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Service Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_02_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Dredging or Underwater Ops Vessls",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_03_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Sailing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_04_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Pleasure Craft",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_05_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "High Speed Craft",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_06_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tug and Towing Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_07_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Passenger Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_08_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Cargo Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_09_avg"
+										},
+										{
+										  "type": "wms",
+										  "name": "Tanker Vessels",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "2020_st_10_avg"
+										},
+										]
+			  }
+			  
+			  ]},
+            	{
+      "type": "wfs-group",
+      "name": "EMODnet Bathymetry Data",
+      "url": "https://ows.emodnet-bathymetry.eu/wfs?"
+    }, 			  
+  ],
+  "viewerMode": "2d",
+ "baseMaps": {
+    "enabledBaseMaps": [
+
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-voyager",
+      "basemap-ocean"
+    ],
+    "defaultBaseMapId": "basemap-ocean",
+    "previewBaseMapId": "basemap-ocean",
+    "items": [
+      {
+        "item": {
+          "id": "basemap-australian-topography",
+          "type": "esri-mapServer",
+          "name": "National Base Map",
+          "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
+          "opacity": 1
+        },
+        "image": "images/basemaps/australian-topo.png"
+      },
+      {
+        "item": {
+          "id": "basemap-positron",
+          "name": "Positron (Light)",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/light_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "opacity": 1
+        },
+        "image": "images/basemaps/positron.png"
+      },
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "name": "Dark Matter",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/dark_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "opacity": 1
+        },
+        "image": "images/basemaps/dark-matter.png"
+      },
+      {
+        "item": {
+          "id": "basemap-voyager",
+          "type": "open-street-map",
+          "name": "Voyager",
+          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+          "opacity": 1,
+          "subdomains": [
+            "cartodb-basemaps-a",
+            "cartodb-basemaps-b",
+            "cartodb-basemaps-c",
+            "cartodb-basemaps-d"
+          ]
+        },
+        "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+      },
+      {
+        "item": {
+          "id": "basemap-ocean",
+          "type": "esri-mapServer",
+          "name": "World Ocean Base",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer",
+          "opacity": 1
+        },
+        "image": "https://www.arcgis.com/sharing/rest/content/items/1e126e7520f9466c9ca28b8f28b5e500/info/thumbnail/thumbnail1574706730697.jpeg"
+      }
+    ]
+  }
+}
