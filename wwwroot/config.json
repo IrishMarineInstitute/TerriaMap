@@ -5,7 +5,8 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
-    // @Kellie: Does Cesium token still go here?
+     "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDUyYzA5NS1jMDdjLTRiZGItYmU2OC1kNWE0NGUxY2ViMDQiLCJpZCI6NzQ4OTcsImlhdCI6MTYzODIwMDQ5MX0.XzJ210uD5VJMFC6aVvQGfIlcq0iTENfJBJZPslwhwII",
+	 "bingMapsKey": "AoIOZ7rMi1ZVuDSOWANc0NodVNXu4KW00QtXHLwa9oWfSlveo3mzBeFf3IEA0D1W",
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
     /* Text that appears at the bottom of the map */
