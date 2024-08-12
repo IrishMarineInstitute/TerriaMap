@@ -1,9 +1,9 @@
 {
   "homeCamera": {
-    "north": -8,
-    "east": 158,
-    "south": -45,
-    "west": 109
+    "north": 55.8,
+    "east": -0.8,
+    "south": 50,
+    "west": -15
   },
   "catalog": [
     {
@@ -49,6 +49,68 @@
           ]
         }
       ]
+    },
+
+
+	    {
+      "type": "wms-group",
+      "name": "ncWMS Thredds",
+      "url": "http://data.marine.ie/ncWMS/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+    }, 
+
+    {
+      "type": "esri-mapServer-group",
+      "name": "Maritime Boundaries",
+	  "description": "Territorial waters or a territorial sea, as defined by the 1982 United Nations Convention on the Law of the Sea,[1] is a belt of coastal waters extending at most 12 nautical miles (22.2 km; 13.8 mi) from the baseline (usually the mean low-water mark) of a coastal state. The territorial sea is regarded as the sovereign territory of the state, although foreign ships (civilian) are allowed innocent passage through it, or transit passage for straits; this sovereignty also extends to the airspace over and seabed below. Adjustment of these boundaries is called, in international law, maritime delimitation. The term territorial waters is also sometimes used informally to refer to any area of water over which a state has jurisdiction, including internal waters, the contiguous zone, the exclusive economic zone and potentially the continental shelf.",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/01_Maritime_Boundaries/MapServer"
+    },
+	 {
+      "id": "biodiversity_climatechange",
+      "type": "group",
+      "name": "Biodiversity",
+      "members": [
+	    {
+      "type": "esri-mapServer-group",
+	  "isOpen": true,
+      "name": "Biodiversity",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/03_Biodiversity/MapServer",
+	  "excludeMembers": ["Searover Transects"]
+    },
+		    {
+      "type": "esri-mapServer-group",
+	  "isOpen": true,
+      "name": "Climate Change",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/03_Climate_Change/MapServer"
+    }
+	]
+	 },
+	{
+	  "type": "esri-mapServer-group",
+	  "isOpen": true,
+      "name": "Heritage Assets",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/03_Heritage_Assets/MapServer"
+    },
+	{
+	  "type": "esri-mapServer-group",
+	  "isOpen": true,
+      "name": "Marine Protected Areas",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/03_Marine_Protected_Areas/MapServer"
+    },
+	{
+	  "type": "esri-mapServer-group",
+	  "isOpen": true,
+      "name": "Fisheries",
+      "url": "http://atlas.marine.ie/arcgis/rest/services/12_Fisheries/MapServer",
+	  "id": "wo2"
+    },
+	{
+      "type": "esri-group",
+      "name": "NPWS Services",
+      "url": "http://webservices.npws.ie/arcgis/rest/services/",
+	  "excludeMembers": ["Utilities", "Test"],
+	  "isOpen": true
+	  
+
     },
     {
       "id": "DL4Av6wY5h",
