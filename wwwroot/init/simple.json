@@ -167,90 +167,12 @@
 			},
 			]
     },
-  	{
-      "type": "group",
+	{
+      "type": "wms-group",
       "name": "Environmental Protection Agency",
-      "members": [
-	   	{
-			  "type": "group",
-			  "isOpen": true,
-			  "name": "Administrative",
-			  "description": "Group containing boundary datasets",
-			  "members": [
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Water Features",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WaterFeatures/MapServer"
-					},	
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Water Regions",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WaterRegions/MapServer"
-					}	
-			  ]
-			},
-	   	{
-			  "type": "group",
-			  "isOpen": true,
-			  "name": "Monitoring",
-			  "members": [
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Bathing Water Quality",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/BathingWater/MapServer"
-					},	
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Urban Waste Water Treatment Plants",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/UWWT/MapServer"
-					},
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Water Framework Directive Protected Areas",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDRegisterofProtectedAreas/MapServer"
-					},	
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Water Framework Directive Risk Scores",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDRiskScores/MapServer"
-					},	
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Water Framework Directive Sataus",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/WFDStatus/MapServer"
-					}	
-			  ]
-			},
-			  	{
-			  "type": "group",
-			  "isOpen": true,
-			  "name": "Licencing",
-			  "members": [
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Dumping at Sea",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/DumpingatSea/MapServer"
-					},	
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Licenced Facilities",
-					  "url": "https://gis.epa.ie/arcgis/rest/services/EPAMapServices/LicenceandEnforcement/MapServer"
-					}	
-			  ]
-			}	  
-	  ]
-	    
-    }, 
+      "url": "https://gis.epa.ie/geoserver/wms?"
 
+    },
       	{
       "type": "esri-group",
       "name": "ICES",
