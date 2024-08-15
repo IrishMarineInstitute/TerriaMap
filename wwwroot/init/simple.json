@@ -355,240 +355,88 @@
 										},
 									]
 			  },
-			  {
-							"type": "group",
-							"isOpen": false,
-							"name": "Route Density 2021",
-							"members": [
-							{
-										  "type": "wms",
-										  "name": "All Vessel Types",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_All"
-										},
-										{
-										  "type": "wms",
-										  "name": "Cargo Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_01"
-										},
-										{
-										  "type": "wms",
-										  "name": "Fishing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_02"
-										},
-										{
-										  "type": "wms",
-										  "name": "Passenger Vessls",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_03"
-										},
-										{
-										  "type": "wms",
-										  "name": "Tanker Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_04"
-										},
-										{
-										  "type": "wms",
-										  "name": "Other",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_yearly_rd_05"
-										},
-			  ]
-			  },
 
 			    {
 							"type": "group",
 							"isOpen": false,
-							"name": "Route Density 2020",
+							"name": "Average Vessel Density",
 							"members": [
 							{
 										  "type": "wms",
 										  "name": "All Vessel Types",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_All"
+										   "layers": "vesseldensity_allavg"
 										},
 										{
 										  "type": "wms",
-										  "name": "Cargo Vessels",
+										  "name": "Fishing",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_01"
+										   "layers": "vesseldensity_01avg"
 										},
 										{
 										  "type": "wms",
-										  "name": "Fishing Vessels",
+										  "name": "Service",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_02"
+										   "layers": "vesseldensity_02avg"
 										},
 										{
 										  "type": "wms",
-										  "name": "Passenger Vessls",
+										  "name": "Dredging or underwater ops",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_03"
+										   "layers": "vesseldensity_03avg"
 										},
 										{
 										  "type": "wms",
-										  "name": "Tanker Vessels",
+										  "name": "Sailing",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_04"
+										   "layers": "vesseldensity_04avg"
 										},
 										{
 										  "type": "wms",
-										  "name": "Other",
+										  "name": "Pleasure Craft",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_yearly_rd_05"
+										   "layers": "vesseldensity_05avg"
+										},
+										{
+											"type": "wms",
+										  "name": "High speed craft",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_06avg"
+										},
+										{
+											"type": "wms",
+										  "name": "Tug and Towing",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_07avg"
+										},
+										{
+											"type": "wms",
+										  "name": "Passenger",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_08avg"
+										},
+										{
+											"type": "wms",
+										  "name": "Cargo",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_09avg"
+										},
+										{
+											"type": "wms",
+										  "name": "Tanker",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_10avg"
+										},
+										{
+											"type": "wms",
+										  "name": "Military and Law Enforcement",
+										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
+										   "layers": "vesseldensity_11avg"
 										},
 			  ]
 			  },
 			      
-			  				{
-							"type": "group",
-							"isOpen": false,
-							"name": "Shipping Density 2021",
-							"members": [
-								{
-										  "type": "wms",
-										  "name": "All Vessel Types 2021",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_All_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Fishing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_01_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Service Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_02_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Dredging or Underwater Ops Vessls",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_03_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Sailing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_04_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Pleasure Craft",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_05_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "High Speed Craft",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_06_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Tug and Towing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_07_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Passenger Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_08_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Cargo Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_09_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Tanker Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2021_st_10_avg"
-										},
-										]
-			  },
-			  {
-							"type": "group",
-							"isOpen": false,
-							"name": "Shipping Density 2020",
-							"members": [
-								{
-										  "type": "wms",
-										  "name": "All Vessel Types 2021",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_All_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Fishing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_01_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Service Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_02_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Dredging or Underwater Ops Vessls",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_03_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Sailing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_04_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Pleasure Craft",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_05_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "High Speed Craft",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_06_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Tug and Towing Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_07_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Passenger Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_08_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Cargo Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_09_avg"
-										},
-										{
-										  "type": "wms",
-										  "name": "Tanker Vessels",
-										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "2020_st_10_avg"
-										},
-										]
-			  }
+			  				
 			  
 			  ]},
             	{
