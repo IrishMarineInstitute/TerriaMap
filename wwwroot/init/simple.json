@@ -30,13 +30,13 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Maritime Boundaries",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Monitoring Boundaries",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer"
 					},  
 			  ]
 			},
@@ -49,19 +49,19 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Fish Species Distribution",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/FishSpeciesDistribution/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/FishSpeciesDistribution/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Inshore Fishing Activity",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
 					},
 						{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Offshore Fishing Activity",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
 					},
 			  ]
 			},
@@ -74,31 +74,31 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Geology",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Marine Geomorphology",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/MarineGeomorphology/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MarineGeomorphology/MapServer"
 					},
 						{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Ocean Monitoring",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/OceanMonitoring/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OceanMonitoring/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Offshore Energy",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/OffshoreEnergy/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OffshoreEnergy/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Ports and Shipping",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer"
 					},
 			  ]
 			}
