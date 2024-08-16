@@ -13,8 +13,7 @@
 	"isde.ie",
 	"secure.dccae.gov.ie"
   ],
-  "catalog": [
-    	 
+  "catalog": [	 
 	{
 	  "type": "group",
 	  "isOpen": true,
@@ -100,10 +99,32 @@
 					  "name": "Ports and Shipping",
 					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer"
 					},
+										  
+					
 			  ]
+			},
+							{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "INFOMAR",
+			  "members": [
+			  
+					{
+					  "type": "esri-mapServer",
+					  "name": "INFOMAR Bathymetry",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/test/bathymetry/Mapserver",
+					  "opacity": 0.8,
+					  "description": "This data shows the depth of the seabed around Ireland between 0 and 200 metre depths. The data was collected between 2001 and 2021. <br><br>Bathymetry is the measurement of how deep is the sea. Bathymetry is the study of the shape and features of the seabed. The name comes from Greek words meaning deep and measure. Bathymetry is collected on board boats working at sea and airplanes over land and coastline. The boats use special equipment called a multibeam echosounder. A multibeam echosounder is a type of sonar that is used to map the seabed. Sound waves are emitted in a fan shape beneath the boat. The amount of time it takes for the sound waves to bounce off the bottom of the sea and return to a receiver is used to determine water depth. <br><br> LiDAR (Light Detection and Ranging) is another way to map the seabed, using airplanes. Two laser light beams are emitted from a sensor on-board an airplane. The red beam reaches the water surface and bounces back; while the green beam penetrates the water hits the seabed and bounces back. The difference in time between the two beams returning allows the water depth to be calculated. LiDAR is only suitable for shallow waters (up to 30m depth).<br><br>The data are collected as points in XYZ format. X and Y coordinates and Z (depth). The boat travels up and down the water in a series of lines (trackline). An XYZ file is created for each line and contains thousands of points. The line files are merged together and converted into gridded data to create a Digital Terrain Model of the seabed. <br><br> This data shows areas that have been surveyed. There are plans to fill in the missing areas between 2020 and 2026. The deeper offshore waters were mapped as part of the Irish National Seabed Survey (INSS) between 1999 and 2005. INtegrated Mapping FOr the Sustainable Development of Ireland's MArine Resource (INFOMAR) is mapping the inshore areas. (2006 - 2026)."
+					},
+					{ "type": "open-street-map", 
+					  "name": "Bathymetry 2D Tiles", 
+					  "url": "https://maps.marine.ie/INFOMAR_Tiles/SR_Contours" },
+					 ]
 			}
+			  
 			]
     },
+	
        
 	{
       "type": "group",
@@ -184,23 +205,6 @@
 	  "isOpen": true,
 	  "name": "EMODnet Human Activities Data",
 	  "members": [
-			  {
-			  "type": "group",
-				"isOpen": false,
-				"name": "Aggregates",
-				"members": [
-				{
-							  "type": "wms",
-							  "name": "Aggregate Extraction Areas",
-							   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-							   "layers": "aggregates"
-							},
-							{
-							  "type": "wms",
-							  "name": "Aggregate Extraction Points",
-							   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-							   "layers": "aggregateareas"
-							}]},
 				{
 							"type": "group",
 							"isOpen": false,
@@ -367,7 +371,7 @@
       "url": "https://ows.emodnet-bathymetry.eu/wfs?"
     }, 			  
   ],
-  "viewerMode": "3d",
+  "viewerMode": "2d",
  "baseMaps": {
     "enabledBaseMaps": [
 
