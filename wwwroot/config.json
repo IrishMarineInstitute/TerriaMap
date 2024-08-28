@@ -1,3 +1,4 @@
+
 {
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
   "initializationUrls": ["simple"],
@@ -24,7 +25,40 @@
             url: "#"
         },
         */
-
+   "theme": {
+      //"charcoalGrey": "#8fcae7",
+    //  "colorPrimary": "#428de3",
+      //"colorSplitter": "#ff6f00",
+      //"compassWidth": "56",
+      //"dark": "#ffffff",
+      //"frontComponentZIndex": "99",
+      //"grey": "#22b800",
+      //"greyLighter": "#ddd",
+      //"greyLighter2": "#e6e6e6",
+      //"greyLightest": "#f2f2f2",
+      //"lg": "1300",
+      "mapButtonColor": "#22b800",
+      //"md": "992",
+      //"mobile": "767",
+      "modalHighlight": "#628bc0",
+      //"overlay": "#22b800",
+      //"overlayInvert": "rgba(255, 255, 255, 0.85)",
+      //"primary": "#00a1de",
+      //"radius40Button": "20",
+      //"radiusLarge": "4px",
+      //"radiusSmall": "2px",
+      //"ringWidth": "10",
+      //"secondary": "#8fcae7",
+      //"sm": "768",
+      //"spacing": "5",
+      //"text": "#fff",
+      //"textBlack": "#ffffff",
+      //"textDark": "#ffffff",
+      //"textDarker": "#000",
+      //"textLight": "#000000",
+      //"textLightDimmed": "#ffffff",
+      //"workbenchWidth": "350"
+    },
     // Pop-up disclaimer that will be shown at the start
     // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
     "globalDisclaimer": {
@@ -47,7 +81,7 @@
 "storyEnabled": true,
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "<a target=\"_blank\" href=\"http://atlas.marine.ie\"><img src=\"images/white.png\" height=\"60\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"http://atlas.marine.ie\"><img src=\"images/white.png\" height=\"60\" title=\"Ireland's Marine Atlas\" width=\"100%\" align =\"center\" /></a>",
   
     ],
     // Shown when things go wrong.
@@ -235,6 +269,7 @@
         "content": "translate#helpContentTerm8.content"
       }
     ]
+	
     // Or direct strings
     // "helpContent": [
     //   {

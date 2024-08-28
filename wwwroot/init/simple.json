@@ -1,3 +1,5 @@
+
+ 
 {
 	
   "homeCamera": {
@@ -29,14 +31,31 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Maritime Boundaries",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer",
+					  "displayGroup": true,
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Monitoring Boundaries",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer",
+					  "displayGroup": true,
 					},  
+			  ]
+			},
+					 	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Atlas of Commercial Fisheries about Ireland",
+			  "description": "In 2024, the Marine Institute published the Atlas of Commercial Fisheries around Ireland, fourth edition. This atlas provides a series of detailed maps of commercial fishing activity around Ireland with the aim of providing insights into fishing activities and fisheries resources. The atlas contains maps of: <br>Fishing effort by vessels of all nationalities by gear type inside the Irish Exclusive Economic Zone (EEZ); <br>Fishing effort by Irish vessels gear type in all areas where it takes place for each; <br>Landings taken by Irish vessels for the main commercially exploited species. <p>The atlas is the fourth of its kind and is based on data from fishing vessels of =12m in length over the period 2018-2022. <p>The vessel monitoring and logbook data that form the basis of the maps were collected under Council Regulation (EC) No. 1224/2009 and were aggregated and processed by the Marine Institute.<p>Fishing is one of the most significant ocean uses in the waters around Ireland. However, the ocean is a shared resource and detailed spatial information on fishing activity is particularly relevant in the context of Ireland’s commitments to offshore wind energy and marine protected areas. The fisheries in Irish waters are highly diverse. A large part of this heterogeneity in the fisheries can be explained by spatial patterns in the availability of the target species and in this Atlas we aim to give insights into these fisheries by providing maps of fishing activities and landings of the most important fish and shellfish species.<p>The maps produced for this atlas are available for download as geoTIFF files below.",
+			  "members": [
+						{
+					  "type": "esri-group",
+					  "isOpen": false,
+					  "name": "Fourth Edition 2024",
+					  "url": "http://spatial.marine.ie/arcgis/rest/services/HANS/atlas_review_layers/MapServer",
+					  "excludeMembers": ["0", "1", "2"]
+					},
 			  ]
 			},
 				{
@@ -69,7 +88,11 @@
 			  "isOpen": true,
 			  "name": "INFOMAR",
 			  "members": [
-			  
+			  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Bathymetry",
+			  "members": [
 					{
 					  "type": "esri-mapServer",
 					  "name": "Bathymetry",
@@ -80,6 +103,16 @@
 					  "name": "Bathymetry",
 					  "template": "Depth: {{Stretch_Pixel Value}}" },
 					},
+										{ "type": "open-street-map", 
+					  "name": "Bathymetry 2D Tiles", 
+					  "url": "https://maps.marine.ie/INFOMAR_Tiles/SR_Contours" },
+					 ]
+			},
+								  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Backscatter",
+			  "members": [			  
 					{
 					  "type": "esri-mapServer",
 					  "name": "Backscatter",
@@ -97,11 +130,11 @@
 					  "description": "Seafloor backscatter is defined as the amount of acoustic energy received by the sonar after a complex interaction with the seafloor. This information can be used to determine the physical nature of the seabed, because different bottom types “scatter” sound energy differently. Imagine bouncing and catching a tennis ball on a path and then again on some nearby grass. The ball will return with more strength after bouncing on the path. This is because soft ground absorbs some of the tennis balls energy. And so it is on the seafloor, a soundwave will return with more energy if reflected off rocks while a muddy seabed will absorb the energy and return a weaker signal to the sonar receiver. <p>These differing values can be visualised to show where areas of rock, sand, mud or even coral occur. This information is very useful. At INFOMAR our scientists combine bathymetry and backscatter data collected by MBES to create detailed 3D maps of the sea floor with multiple applications.For example, if you wanted to install a wind turbine on the ocean floor to develop Marine Renewable Energy you need to know what type of seabed to expect.",
 					  
 					},
-					{ "type": "open-street-map", 
-					  "name": "Bathymetry 2D Tiles", 
-					  "url": "https://maps.marine.ie/INFOMAR_Tiles/SR_Contours" },
-					 ]
-			},
+					]
+			  },
+					]
+			  },
+			
 							{
 			  "type": "group",
 			  "isOpen": true,
@@ -135,7 +168,8 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Ports and Shipping",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer",
+					  "displayGroup": true,
 					},
 										  
 					
@@ -209,11 +243,82 @@
 			]
     },
 	{
-      "type": "wms-group",
-      "name": "Environmental Protection Agency",
-      "url": "https://gis.epa.ie/geoserver/wms?"
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Environmental Protection Agency",
+			  "members": [
+
+	{
+	  "type": "wms-group",
+      "name": "Bathing Water",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "BathingWater"
 
     },
+		{
+	  "type": "wms-group",
+      "name": "Urban Waste Water Treatment",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "UrbanWasteWater"
+
+    },
+	{
+      "type": "wfs-group",
+      "name": "Domestic Waste Water Treatment Systems (DWWTS)",
+      "url": "https://gis.epa.ie/geoserver/DWWTS/wfs?"
+
+    },
+	{
+      "type": "wfs-group",
+      "name": "Monitoring",
+      "url": "https://gis.epa.ie/geoserver/EPA/wfs?",
+	  "includeMembersRegex": "MON_",
+    },	
+		{
+      "type": "wfs-group",
+      "name": "Corine Land Cover",
+      "url": "https://gis.epa.ie/geoserver/EPA/wfs?",
+	  "includeMembersRegex": "LAND_",
+    },
+			{
+      "type": "wfs-group",
+      "name": "Mines",
+      "url": "https://gis.epa.ie/geoserver/EPA/wfs?",
+	  "includeMembersRegex": "MINES_",
+    },
+		{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Water Framework Directive",
+			  "members": [
+			  {
+      "type": "wms-group",
+      "name": "WFD Coastal Waterbodies",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "WFD_COASTALWATERBODIES"
+    },	
+				  {
+      "type": "wms-group",
+      "name": "WFD Coastal Waterbodies Status",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "WFD_CWB"
+    },	
+	{
+      "type": "wms-group",
+      "name": "WFD Transitional Waterbodies",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "WFD_Transitionalwaterbodies"
+    },
+	{
+      "type": "wms-group",
+      "name": "WFD Transitional Waterbodies Status",
+      "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+	  "includeMembersRegex": "WFD_TWB"
+    },
+	]
+	},
+	]
+	},
       	{
       "type": "esri-group",
       "name": "ICES",
@@ -304,7 +409,7 @@
 
 			    {
 							"type": "group",
-							"isOpen": false,
+							"isOpen": true,
 							"name": "Average Vessel Density",
 							"members": [
 							{
@@ -402,8 +507,8 @@
       "basemap-voyager",
       "basemap-ocean"
     ],
-    "defaultBaseMapId": "basemap-oceanbasemap-bing-aerial-with-labels",
-    "previewBaseMapId": "basemap-oceanbasemap-bing-aerial-with-labels",
+    "defaultBaseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-voyager",
     "items": [
       {
         "item": {
