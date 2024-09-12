@@ -13,7 +13,8 @@
     "data.marine.ie",
     "atlas.marine.ie",
 	"isde.ie",
-	"secure.dccae.gov.ie"
+	"secure.dccae.gov.ie",
+	"basemap.marine.ie"
   ],
   "catalog": [	 
 	{
@@ -32,16 +33,9 @@
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Maritime Boundaries",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MaritimeBoundaries/MapServer",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Administrative/MaritimeBoundaries/MapServer",
 					  "displayGroup": true,
-					},
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Monitoring Boundaries",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MonitoringBoundaries/MapServer",
-					  "excludeMembers": ["Ocean Energy Boundaries"]
-					},  
+					}
 			  ]
 			},
 					 	{
@@ -54,8 +48,8 @@
 					  "type": "esri-group",
 					  "isOpen": false,
 					  "name": "Fourth Edition 2024",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/HANS/atlas_review_layers/MapServer",
-					  "description": " "
+					  "url": "http://spatial.marine.ie/arcgis/rest/services/HANS/atlas_review_layers/MapServer"
+					  
 					},
 			  ]
 			},
@@ -64,23 +58,24 @@
 			  "isOpen": true,
 			  "name": "Biological",
 			  "members": [
+			  						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Broad Benthic Habitat Type",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/Broad_Benthic_Habitat_Type/MapServer"
+					},
 						{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Fish Species Distribution",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/FishSpeciesDistribution/MapServer"
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/Fish_Species_Distribution/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Inshore Fishing Activity",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
-					},
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Offshore Fishing Activity",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/InshoreFisheries/MapServer"
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/InshoreFisheries/MapServer",
+					  "displayGroup": true
 					},
 					
 					
@@ -155,30 +150,43 @@
 					  "name": "Geology",
 					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer"
 					},
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Marine Geomorphology",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/MarineGeomorphology/MapServer"
-					},
 						{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Ocean Monitoring",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OceanMonitoring/MapServer"
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/OceanMonitoring/MapServer",
+					  "displayGroup": true
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Offshore Energy",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/OffshoreEnergy/MapServer"
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/OffshoreEnergy/MapServer"
 					},
 					{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Ports and Shipping",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/PortsShipping/MapServer",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Ports_and_Shipping/MapServer",
 					  "displayGroup": true,
+					},
+										{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Seabed - OSPAR Common Indicator BH3",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Seabed/MapServer"
+					},
+															{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Seascapes",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Seascapes/MapServer"
+					},
+																			{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Tourism",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Tourism/MapServer"
 					},
 										  
 					
@@ -335,7 +343,8 @@
       "type": "esri-group",
       "name": "ICES",
 	  "description": "The International Council for the Exploration of the Sea (ICES) is an intergovernmental marine science organization, meeting societal needs for impartial evidence on the state and sustainable use of our seas and oceans.<p>​​​​Our goal is to advance and share scientific understanding of marine ecosystems and the services they provide and to use this knowledge to generate state-of-the-art advice for meeting conservation, management, and sustainability goals. <p>We are a network of nearly 6000 scientists from over 700 marine institutes in our 20 member countries and beyond. Over 2500 scientists participate in our activities annually.<p>Through strategic partnerships our work in the Atlantic Ocean also extends into the Arctic, the Mediterranean Sea, the Black Sea, and the North Pacific Ocean.",
-      "url": "https://gis.ices.dk/gis/rest/services/ICES_reference_layers"
+      "url": "https://gis.ices.dk/gis/rest/services/ICES_reference_layers",
+	  "excludeMembers": ["Nephrops function units draft"]
     }, 
 	{
 	"type": "group",
