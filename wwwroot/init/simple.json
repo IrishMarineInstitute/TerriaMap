@@ -134,6 +134,11 @@
 					  "description": "Seafloor backscatter is defined as the amount of acoustic energy received by the sonar after a complex interaction with the seafloor. This information can be used to determine the physical nature of the seabed, because different bottom types “scatter” sound energy differently. Imagine bouncing and catching a tennis ball on a path and then again on some nearby grass. The ball will return with more strength after bouncing on the path. This is because soft ground absorbs some of the tennis balls energy. And so it is on the seafloor, a soundwave will return with more energy if reflected off rocks while a muddy seabed will absorb the energy and return a weaker signal to the sonar receiver. <p>These differing values can be visualised to show where areas of rock, sand, mud or even coral occur. This information is very useful. At INFOMAR our scientists combine bathymetry and backscatter data collected by MBES to create detailed 3D maps of the sea floor with multiple applications.For example, if you wanted to install a wind turbine on the ocean floor to develop Marine Renewable Energy you need to know what type of seabed to expect.",
 					  
 					},
+										{ 
+					"type": "open-street-map", 
+					 "name": "Backscatter 2D Tiles", 
+					 "url": "https://maps.marine.ie/INFOMAR_Tiles/backscatter" 
+					 },
 					]
 			  },
 					]
@@ -144,11 +149,18 @@
 			  "isOpen": true,
 			  "name": "Physical",
 			  "members": [
-						{
+			  											{
 					  "type": "esri-mapServer-group",
 					  "isOpen": false,
 					  "name": "Geology",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer"
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer",
+					  "excludeMembers": ["Marine Aggregates"]
+					},
+						{
+					  "type": "esri-mapServer-group",
+					  "isOpen": false,
+					  "name": "Marine Aggregates",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/MarineAggregates/MapServer"
 					},
 						{
 					  "type": "esri-mapServer-group",
