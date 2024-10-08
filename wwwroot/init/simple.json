@@ -14,7 +14,8 @@
     "atlas.marine.ie",
 	"isde.ie",
 	"secure.dccae.gov.ie",
-	"basemap.marine.ie"
+	"basemap.marine.ie",
+	"https://data.gov.ie"
   ],
   "catalog": [	 
 	{
@@ -351,6 +352,19 @@
 	},
 	]
 	},
+	{
+	"type": "group",
+	  "isOpen": true,
+	  "name": "DAFM",
+	  "description": "To lead the sustainable development of the agri-food, forestry and marine sector and to optimise its contribution to national economic development and the natural environment.",
+	  "members": [
+	  								{
+										  "type": "esri-featureServer",
+										  "name": "Licensed Aquaculture Sites",
+										   "url": "https://utility.arcgis.com/usrsvcs/servers/5e627e07b8574302a22944ee789c6e2f/rest/services/Hosted/Aquamis_Production_View_Public/FeatureServer/0"
+										},
+										]
+},
       	{
       "type": "esri-group",
       "name": "ICES",
@@ -537,25 +551,26 @@
 
 	]
 	},
+		 {
+							"type": "group",
+							"isOpen": true,
+							"name": "Met Éireann",
+							"members": [
+	            	{
+      "type": "geojson",
+	  "url": "https://data.gov.ie/dataset/2076e2fa-1027-4100-a7e5-f20f82116f22/resource/2a68835f-940c-42c6-a3df-3d179a49d36f/download/sea-areas.geojson",
+      "name": "Met Éireann Sea Area warnings map polygons",
+	  "description": "This dataset provides map polygons for sea areas used in sea area warnings. The dataset includes the naming convention and EMMA IDs for each area adjacent to the coastline."   
+    },
+	 ]
+	 },
 										{
       "type": "esri-group",
       "name": "Tailte Éireann",
 	  "description": "<p>Tailte Éireann is an independent Government agency under the aegis of the Department of Housing, Local Government and Heritage.</p><p>Providing a property registration system, property valuation service, and national mapping and surveying infrastructure for the State.</p><p>The legislation that established Tailte Éireann can be found at <a href=\"https://www.irishstatutebook.ie/eli/2022/act/50/enacted/en/print?printonload=true\"><b>Tailte Éireann Act 2022</b></a>",
       "url": "https://services-eu1.arcgis.com/FH5XCsx8rYXqnjF5/arcgis/rest/services/"
     },
-	{
-	"type": "group",
-	  "isOpen": true,
-	  "name": "DAFM",
-	  "description": "To lead the sustainable development of the agri-food, forestry and marine sector and to optimise its contribution to national economic development and the natural environment.",
-	  "members": [
-	  								{
-										  "type": "esri-featureServer",
-										  "name": "Licensed Aquaculture Sites",
-										   "url": "https://utility.arcgis.com/usrsvcs/servers/5e627e07b8574302a22944ee789c6e2f/rest/services/Hosted/Aquamis_Production_View_Public/FeatureServer/0"
-										},
-										]
-},
+	
 
        	{
       "type": "group",
@@ -728,7 +743,7 @@
       "name": "EMODnet Bathymetry Data",
 	  "description": "EMODnet Bathymetry provides a service for viewing and downloading the best available harmonised Digital Terrain Model (DTM) for the European sea regions, together with a range of other bathymetric data, products, and services. The DTM is generated and regularly updated by the EMODnet Bathymetry partnership using an increasing number of bathymetric data sets. Services for discovery and requesting access to these data sets are provided and maintained as well.",
       "url": "https://ows.emodnet-bathymetry.eu/wms?"
-    }, 			  
+    }, 	
   ],
   "viewerMode": "2d",
  "baseMaps": {
