@@ -560,7 +560,18 @@
       "type": "geojson",
 	  "url": "https://data.gov.ie/dataset/2076e2fa-1027-4100-a7e5-f20f82116f22/resource/2a68835f-940c-42c6-a3df-3d179a49d36f/download/sea-areas.geojson",
       "name": "Met Éireann Sea Area warnings map polygons",
-	  "description": "This dataset provides map polygons for sea areas used in sea area warnings. The dataset includes the naming convention and EMMA IDs for each area adjacent to the coastline."   
+	    "styles": [
+    {
+      "id": "User Style",
+	  "color": {
+      "colorColumn":"NAME"
+	  },
+      "outline": { "null": { "color": "rgba(255,255,255,255)" } },
+      "hidden": false
+    }
+  ],
+  "activeStyle": "User Style",
+	  "description": "This dataset provides map polygons for sea areas used in sea area warnings. The dataset includes the naming convention and EMMA IDs for each area adjacent to the coastline.",
     },
 	 ]
 	 },
