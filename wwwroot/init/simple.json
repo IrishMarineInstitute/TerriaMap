@@ -675,73 +675,145 @@
 										  "type": "wms",
 										  "name": "All Vessel Types",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_allavg"
+										   "layers": "vesseldensity_allavg",
+										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_allavg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 										  "type": "wms",
 										  "name": "Fishing",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_01avg"
+										   "layers": "vesseldensity_01avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_01avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 										  "type": "wms",
 										  "name": "Service",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_02avg"
+										   "layers": "vesseldensity_02avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_02avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 										  "type": "wms",
 										  "name": "Dredging or underwater ops",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_03avg"
+										   "layers": "vesseldensity_03avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_03avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 										  "type": "wms",
 										  "name": "Sailing",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_04avg"
+										   "layers": "vesseldensity_04avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_04avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 										  "type": "wms",
 										  "name": "Pleasure Craft",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_05avg"
+										   "layers": "vesseldensity_05avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_05avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "High speed craft",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_06avg"
+										   "layers": "vesseldensity_06avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_06avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "Tug and Towing",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_07avg"
+										   "layers": "vesseldensity_07avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_07avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "Passenger",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_08avg"
+										   "layers": "vesseldensity_08avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_08avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "Cargo",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_09avg"
+										   "layers": "vesseldensity_09avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_09avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "Tanker",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_10avg"
+										   "layers": "vesseldensity_10avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_10avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 										{
 											"type": "wms",
 										  "name": "Military and Law Enforcement",
 										   "url": "https://ows.emodnet-humanactivities.eu/wms?",
-										   "layers": "vesseldensity_11avg"
+										   "layers": "vesseldensity_11avg",
+										   										   	  "legends":[
+	  {
+		  "url":"https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_11avg",
+	  "imageScaling": 1
+	  }
+	  ]
 										},
 			  ]
 			  },
@@ -754,7 +826,7 @@
       "name": "EMODnet Bathymetry Data",
 	  "description": "EMODnet Bathymetry provides a service for viewing and downloading the best available harmonised Digital Terrain Model (DTM) for the European sea regions, together with a range of other bathymetric data, products, and services. The DTM is generated and regularly updated by the EMODnet Bathymetry partnership using an increasing number of bathymetric data sets. Services for discovery and requesting access to these data sets are provided and maintained as well.",
       "url": "https://ows.emodnet-bathymetry.eu/wms?"
-    }, 	
+    }
   ],
   "viewerMode": "2d",
  "baseMaps": {
