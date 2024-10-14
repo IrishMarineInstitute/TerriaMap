@@ -826,7 +826,124 @@
       "name": "EMODnet Bathymetry Data",
 	  "description": "EMODnet Bathymetry provides a service for viewing and downloading the best available harmonised Digital Terrain Model (DTM) for the European sea regions, together with a range of other bathymetric data, products, and services. The DTM is generated and regularly updated by the EMODnet Bathymetry partnership using an increasing number of bathymetric data sets. Services for discovery and requesting access to these data sets are provided and maintained as well.",
       "url": "https://ows.emodnet-bathymetry.eu/wms?"
+    },
+	{
+							"type": "group",
+							"isOpen": true,
+							"name": "MI Thredds Catalog",
+							"members": [
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "IMI ROMS HYDRO",
+							"members": [
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "NEATLANTIC_NATIVE_2KM_40L_1H",
+							"members": [
+		    {
+      "type": "thredds-group",
+      "name": "Forecast",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/FORECAST/catalog.xml"
     }
+	]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "BANTRY_BAY_NATIVE_250M_20L_1H",
+							"members": [
+												    {
+      "type": "thredds-group",
+      "name": "Forecast",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/FORECAST/catalog.xml"
+    }
+]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "CONNEMARA_250M_20L_1H",
+							"members": [
+							 {
+      "type": "thredds-group",
+      "name": "Forecast",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/FORECAST/catalog.xml"
+    }
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "GALWAY_BAY_NATIVE_70M_8L_1H",
+							"members": [
+							{
+      "type": "thredds-group",
+      "name": "Forecast",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/FORECAST/catalog.xml"
+    }
+							 ]
+							},
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "IMI_CMEMS",
+							"members": [
+							{
+      "type": "thredds-group",
+      "name": "FORECAST",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_CMEMS/FORECAST/catalog.xml"
+    }
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "COMPASS_NEATL",
+							"members": [
+							{
+      "type": "thredds-group",
+      "name": "HINDCAST",
+      "url": "http://thredds.marine.ie/thredds/catalog/COMPASS_NEATL/HINDCAST/catalog.xml"
+    },
+	{
+      "type": "thredds-group",
+      "name": "Habitat Layers",
+      "url": "http://thredds.marine.ie/thredds/catalog/COMPASS_NEATL/HABITAT_LAYERS/catalog.xml"
+    }
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "COMPASS_WeStCOMS",
+							"members": [
+								{
+      "type": "thredds-group",
+      "name": "HINDCAST",
+      "url": "http://thredds.marine.ie/thredds/catalog/westcoms/HINDCAST/catalog.xml"
+    }
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "connemara_native",
+							"members": [
+															{
+      "type": "thredds-group",
+      "name": "FORECAST",
+      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/CONNEMARA_NATIVE_250M_20L_1H/FORECAST/catalog.xml"
+    }
+							]
+							},
+								 
+
+	]
+	}
   ],
   "viewerMode": "2d",
  "baseMaps": {

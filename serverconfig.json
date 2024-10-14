@@ -23,6 +23,7 @@
     "gov.nz",
     "services.aremi.data61.io",
 	"basemap.marine.ie",
-	"data.gov.ie"
+	"data.gov.ie",
+	"thredds.marine.ie"
   ]
 }
