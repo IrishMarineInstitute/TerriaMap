@@ -839,31 +839,41 @@
 							"members": [
 							{
 							"type": "group",
-							"isOpen": true,
+							"isOpen": false,
 							"name": "NEATLANTIC_NATIVE_2KM_40L_1H",
 							"members": [
-		    {
-      "type": "thredds-group",
-      "name": "Forecast",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/FORECAST/catalog.xml"
+		 {
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+			 {
+      "type": "wms-group",
+      "name": "Combined",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
     }
 	]
 							},
 							{
 							"type": "group",
-							"isOpen": true,
+							"isOpen": false,
 							"name": "BANTRY_BAY_NATIVE_250M_20L_1H",
 							"members": [
-												    {
-      "type": "thredds-group",
-      "name": "Forecast",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/FORECAST/catalog.xml"
+													    {
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+				 {
+      "type": "wms-group",
+      "name": "Combined",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
     }
 ]
 							},
 							{
 							"type": "group",
-							"isOpen": true,
+							"isOpen": false,
 							"name": "CONNEMARA_250M_20L_1H",
 							"members": [
 							 {
@@ -875,13 +885,18 @@
 							},
 							{
 							"type": "group",
-							"isOpen": true,
+							"isOpen": false,
 							"name": "GALWAY_BAY_NATIVE_70M_8L_1H",
 							"members": [
-							{
-      "type": "thredds-group",
-      "name": "Forecast",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/FORECAST/catalog.xml"
+								{
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+									{
+      "type": "wms-group",
+      "name": "Combined",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
     }
 							 ]
 							},
@@ -894,7 +909,7 @@
 							"members": [
 							{
       "type": "thredds-group",
-      "name": "FORECAST",
+      "name": "Forecast",
       "url": "http://thredds.marine.ie/thredds/catalog/IMI_CMEMS/FORECAST/catalog.xml"
     }
 							]
@@ -902,12 +917,41 @@
 							{
 							"type": "group",
 							"isOpen": true,
+							"name": "MyCoast",
+							"members": [
+														{
+      "type": "wms-group",
+      "name": "ROMS",
+      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/ROMS/NEATLANTIC/MYCOAST_V1_IMI_ROMS_NEATLANTIC_01hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+															{
+      "type": "wms-group",
+      "name": "SWAN EATL",
+      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/EATL/MYCOAST_V1_IMI_SWAN_EATL_03hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+																{
+      "type": "wms-group",
+      "name": "SWAN GALICIA",
+      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/GALICIA/MyCOAST_V1_MeteoGalicia_SWAN_galicia_01hr_aggregate_PR.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+    }
+	
+							]
+							},
+							
+							{
+							"type": "group",
+							"isOpen": true,
 							"name": "COMPASS_NEATL",
 							"members": [
 							{
-      "type": "thredds-group",
-      "name": "HINDCAST",
-      "url": "http://thredds.marine.ie/thredds/catalog/COMPASS_NEATL/HINDCAST/catalog.xml"
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+								{
+      "type": "wms-group",
+      "name": "Aggregate BiMonthly",
+      "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/COMPASS_NEATL_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
     },
 	{
       "type": "thredds-group",
@@ -922,9 +966,26 @@
 							"name": "COMPASS_WeStCOMS",
 							"members": [
 								{
-      "type": "thredds-group",
-      "name": "HINDCAST",
-      "url": "http://thredds.marine.ie/thredds/catalog/westcoms/HINDCAST/catalog.xml"
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/westcoms/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+									{
+      "type": "wms-group",
+      "name": "Aggregate BiMonthly",
+      "url": "http://thredds.marine.ie/thredds/wms/westcoms/COMPASS_WeStCOMS_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+    }
+							]
+							},
+							{
+							"type": "group",
+							"isOpen": true,
+							"name": "Adrift wind",
+							"members": [
+																{
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/adrift_wind/adrift_wind_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities"
     }
 							]
 							},
@@ -934,9 +995,14 @@
 							"name": "connemara_native",
 							"members": [
 															{
-      "type": "thredds-group",
-      "name": "FORECAST",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/CONNEMARA_NATIVE_250M_20L_1H/FORECAST/catalog.xml"
+      "type": "wms-group",
+      "name": "Aggregate",
+      "url": "http://thredds.marine.ie/thredds/wms/connemara_native/connemara_native_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+    },
+																{
+      "type": "wms-group",
+      "name": "Combined",
+      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
     }
 							]
 							},
