@@ -15,7 +15,8 @@
 	"isde.ie",
 	"secure.dccae.gov.ie",
 	"basemap.marine.ie",
-	"https://data.gov.ie"
+	"https://data.gov.ie",
+	"https://services-eu1.arcgis.com"
   ],
   "catalog": [	 
 	{
@@ -223,55 +224,14 @@
 			  "description": "Group containing boundary datasets",
 			  "members": [
 						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
+					  "type": "esri-featureServer-group",
+					  "isOpen": true,
 					  "name": "Designated Areas",
-					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/NPWSDesignatedAreas/MapServer"
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/NPWSDesignatedAreas/FeatureServer"
 					},	
 			  ]
 			},
-			{
-			  "type": "group",
-			  "isOpen": true,
-			  "name": "Habitats",
-			  "members": [
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Site Specific Conservation Objectives SAC Habitats",
-					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSACHabitats/MapServer",
-					  "excludeMembers": ["SAC", "Bogs / Fens / Heath / Scrub", "Forests", "Grasslands"]
-					},
-					{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Irish Coastal Lagoons 2007",
-					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/InventoryIrishCoastalLagoons2007ITM/MapServer"
-					},
-					
-			  ]
-			},
-				{
-			  "type": "group",
-			  "isOpen": true,
-			  "name": "Species",
-			  "members": [
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Site Specific Conservation Objectives SAC Species",
-					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSACSpecies/MapServer",
-					  "excludeMembers": ["SAC", "Non Vascular Plants", "Reptiles", "Vascular Plants"]
-					},
-						{
-					  "type": "esri-mapServer-group",
-					  "isOpen": false,
-					  "name": "Site Specific Conservation Objectives SPA Species",
-					  "url": "https://webservices.npws.ie/arcgis/rest/services/NPWS/SscoSPA/MapServer"
-					},		
-					
-			  ]
-			},
+			
 			]
     },
 	{

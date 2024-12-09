@@ -24,6 +24,7 @@
     "services.aremi.data61.io",
 	"basemap.marine.ie",
 	"data.gov.ie",
-	"thredds.marine.ie"
+	"thredds.marine.ie",
+	"services-eu1.arcgis.com"
   ]
 }
