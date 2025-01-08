@@ -83,6 +83,21 @@
 					
 			  ]
 			},
+								 	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "DFA",
+			  "members": [
+						{
+					  "type": "esri-group",
+					  "isOpen": false,
+					  "name": "Continental Shelf Designation Orders",
+					  "url": "https://spatial.marine.ie/arcgis/rest/services/DFA/Continental_shelf/MapServer",
+					  "displayGroup": true
+					  
+					},
+			  ]
+			},
 										{
 			  "type": "group",
 			  "isOpen": true,
