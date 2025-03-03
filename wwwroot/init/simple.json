@@ -78,8 +78,8 @@
 					  "name": "Inshore Fishing Activity",
 					  "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/InshoreFisheries/MapServer",
 					  "displayGroup": true
-					},
-					
+					}
+	
 					
 			  ]
 			},
@@ -1180,10 +1180,34 @@
     }
 							]
 							},
-								 
+															
 
 	]
-	}
+	},
+	{
+	 "type": "group",
+	  "isOpen": true,
+      "name": "3D Visualisations",
+	  "description": "Cesium ION 3D assets",
+		 "members": [
+		 {
+  "type": "3d-tiles",
+  "ionAssetId": 96188,
+  "name": "Cesium OSM Buildings",
+  "id": "some-unique-id"
+},
+{
+  "type": "cesium-terrain",
+  "ionAssetId": 2426648,
+  "name": "Cesium World Bathymetry"
+},  
+{
+  "type": "3d-tiles",
+  "ionAssetId": 2275207,
+  "name": "Google Photorealistic 3D Tiles"
+}
+]
+	},
   ],
   "viewerMode": "2d",
  "baseMaps": {
