@@ -59,6 +59,38 @@
       //"textLightDimmed": "#ffffff",
       //"workbenchWidth": "350"
     },
+	"relatedMaps": [
+	{
+  "imageUrl": "https://www.marine.ie/sites/default/files/MIFiles/Images/OSIS/CelticExplorer.jpg",
+  "url": "https://www.marine.ie/",
+  "title": "Marine Institute",
+  "description": "The Marine Institute’s primary role is to undertake and co-ordinate marine research and development. We also provide a number of services to promote economic development and create employment around the marine environment."
+},
+{
+  "imageUrl": "https://www.marine.ie/sites/default/files/MIFiles/Images_Comms/SectionImages/DataServices/digital-ocean.jpg",
+  "url": "https://www.digitalocean.ie/",
+  "title": "Digital Ocean",
+  "description": "Funded by the Marine Institute, visit Ireland's Digital Ocean and find information relating to weather, tides, waves, ports, marinas, beaches, sea beds, ship wrecks, dive sites, biospheres, protected and special areas of conservation, provided by numerous third party organisations."
+},
+{
+  "imageUrl": "https://www.infomar.ie/sites/default/files/styles/map_desktop/public/images/standard-content/2018-07-03%2014_05_24-.jpg?itok=HOBh3hDm",
+  "url": "https://www.infomar.ie/maps/interactive-maps/dynamic-bathymetric-viewer",
+  "title": "INFOMAR Dynamic Bathymetry Viewer",
+  "description": "INFOMAR maps Irish coastal and offshore waters and makes bathymetric data freely available for download as Shaded Relief, Bathymetric Contour & Seabed Classification Charts."
+},
+{
+  "imageUrl": "images/datacatalog.png",
+  "url": "https://data.marine.ie/geonetwork/srv/eng/catalog.search#/home",
+  "title": "The Marine Institute Data Catalogue",
+  "description": "Visit The Marine Institute Data Catalogue and download oceanography, fisheries, ocean energy, marine environment and food safety result data."
+},
+{
+  "imageUrl": "https://www.arcgis.com/sharing/rest/content/items/fcc6b2c0cfe84dd2a19efa1361856d9f/resources/images/widget_3/1733394353172.PNG?token=3NKHt6i2urmWtqOuugvr9eluxzg4z9u48HLFoGdvvvAqeUhatiM1ZgxU8bHQtubWuTDGUhDqKohYCOifaerZY1D5TewAyZgQlFNHT1TH_H1yOgnEeqBvk-dZbeU7SCrugFEZ0jGWlEJecEjY4zpLAKJStfhLZ1AHKEYt9LQkWzR4GT-h_S8g28OF-XHQwHNEKCInxjhMupXUgIDWzQL4q1719NOw6qfzraPtw-29vG3r1mr3EJ4aa-WT-y4AmR_n",
+  "url": "https://experience.arcgis.com/experience/fcc6b2c0cfe84dd2a19efa1361856d9f",
+  "title": "The SeaRover Survey",
+  "description": "Visit The SeaRover Survey experience to explore the sensitive ecosystem assessment and ROV exploration of reef survey"
+}
+],
     // Pop-up disclaimer that will be shown at the start
     // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
     "globalDisclaimer": {
@@ -71,6 +103,7 @@
     //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
     "enableOnLocalhost": true // If false, don't show this when running on localhost
      },
+
 
         developerAttribution: {
             text: "Marine Institute",

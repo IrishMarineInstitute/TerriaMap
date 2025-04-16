@@ -1220,9 +1220,27 @@
       "basemap-voyager",
       "basemap-ocean"
     ],
+	
     "defaultBaseMapId": "basemap-bing-aerial-with-labels",
     "previewBaseMapId": "basemap-voyager",
+    
     "items": [
+	  {
+        "item": {
+          "id": "basemap-bing-aerial",
+          "type": "esri-mapServer",
+          "name": "Bing Maps Aerial",
+        },
+        "image": "images/basemaps/bing-aerial.png"
+      },
+	  	  {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "type": "esri-mapServer",
+          "name": "Bing Maps Aerial With Labels",
+        },
+        "image": "images/basemaps/bing-aerial-labels.png"
+      },
       {
         "item": {
           "id": "basemap-australian-topography",
@@ -1282,7 +1300,7 @@
             "cartodb-basemaps-d"
           ]
         },
-        "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+        "image": "images/basemaps/voyager.png"
       },
       {
         "item": {
@@ -1292,7 +1310,7 @@
           "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer",
           "opacity": 1
         },
-        "image": "https://www.arcgis.com/sharing/rest/content/items/1e126e7520f9466c9ca28b8f28b5e500/info/thumbnail/thumbnail1574706730697.jpeg"
+        "image": "images/basemaps/oceans.png"
       }
     ]
   }
