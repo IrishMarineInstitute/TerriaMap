@@ -1,0 +1,16 @@
+services:
+  terriamap:
+    build: .
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./wwwroot:/usr/src/app/wwwroot
+      - ./productionserverconfig.json:/usr/src/app/productionserverconfig.json
+    command:
+      [
+        "node",
+        "./node_modules/terriajs-server/terriajs-server.js",
+        "--config-file",
+        "productionserverconfig.json"
+      ]
+    restart: always

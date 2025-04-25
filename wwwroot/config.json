@@ -5,12 +5,17 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDUyYzA5NS1jMDdjLTRiZGItYmU2OC1kNWE0NGUxY2ViMDQiLCJpZCI6NzQ4OTcsImlhdCI6MTYzODIwMDQ5MX0.XzJ210uD5VJMFC6aVvQGfIlcq0iTENfJBJZPslwhwII",
+    "bingMapsKey": "AoIOZ7rMi1ZVuDSOWANc0NodVNXu4KW00QtXHLwa9oWfSlveo3mzBeFf3IEA0D1W",
+    "displayOneBrand": 1,
+    "tabbedCatalog": true,
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
+
     /* Text that appears at the bottom of the map */
     "disclaimer": {
       "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-      "url": ""
+      "url": "http://atlas.marine.ie"
     },
     /*
         // Text that will be added to any pages printed from your site.
@@ -19,37 +24,107 @@
             url: "#"
         },
         */
+    "theme": {
+      // "charcoalGrey": "#ffffff",
+      //"colorPrimary": "#60BB46", //keep
+      //"colorSplitter": "#ff6f00",
+      //"compassWidth": "56",
+      //"dark": "#ffffff", //pane on left keep
+      //"frontComponentZIndex": "99",
+      //"grey": "#000", //keep
+      "greyLighter": "#a6a7ab", //bottom of catalog credits and workbench text keep
+      //"greyLighter2": "#e6e6e6",
+      //"greyLightest": "#f2f2f2",
+      //"lg": "1300",
+      "mapButtonColor": "#009ADD", //keep
+      //"md": "992",
+      //"mobile": "767",
+      //"tjsTabsBtn": "#000",
+      //"modalHighlight": "#009ADD", //keep
+      //"darkWithOverlay": "#f2f2f2", // item background in panel keep
+      //"overlayInvert": "#000000",
+      //"colorSecondary": "#00a1de", //keep
+      //"tjsSidePanel": "#000000",
+      //"featureInfoColor": "#000",
+      //"radius40Button": "20",
+      //"radiusLarge": "4px",
+      //"radiusSmall": "2px",
+      //"ringWidth": "10",
+      //"secondary": "#8fcae7",
+      //"sm": "768",
+      //"spacing": "5",
+      //"text": "#000",
+      // "textDark2": "#000",
+      //"textBlack": "#000000",
+      "textDark": "#696a6b"
+      //"textDarker": "#000",
+      //"textLightDimmed": "#000000",
+      // "tjs-tabs__tab-list": "#000"
+      //"workbenchWidth": "350"
+    },
+    "relatedMaps": [
+      {
+        "imageUrl": "https://www.marine.ie/sites/default/files/MIFiles/Images/OSIS/CelticExplorer.jpg",
+        "url": "https://www.marine.ie/",
+        "title": "Marine Institute",
+        "description": "The Marine Institute’s primary role is to undertake and co-ordinate marine research and development. We also provide a number of services to promote economic development and create employment around the marine environment."
+      },
+      {
+        "imageUrl": "https://www.marine.ie/sites/default/files/MIFiles/Images_Comms/SectionImages/DataServices/digital-ocean.jpg",
+        "url": "https://www.digitalocean.ie/",
+        "title": "Digital Ocean",
+        "description": "Funded by the Marine Institute, visit Ireland's Digital Ocean and find information relating to weather, tides, waves, ports, marinas, beaches, sea beds, ship wrecks, dive sites, biospheres, protected and special areas of conservation, provided by numerous third party organisations."
+      },
+      {
+        "imageUrl": "https://www.infomar.ie/sites/default/files/styles/map_desktop/public/images/standard-content/2018-07-03%2014_05_24-.jpg?itok=HOBh3hDm",
+        "url": "https://www.infomar.ie/maps/interactive-maps/dynamic-bathymetric-viewer",
+        "title": "INFOMAR Dynamic Bathymetry Viewer",
+        "description": "INFOMAR maps Irish coastal and offshore waters and makes bathymetric data freely available for download as Shaded Relief, Bathymetric Contour & Seabed Classification Charts."
+      },
+      {
+        "imageUrl": "images/datacatalog.png",
+        "url": "https://data.marine.ie/geonetwork/srv/eng/catalog.search#/home",
+        "title": "The Marine Institute Data Catalogue",
+        "description": "Visit The Marine Institute Data Catalogue and download oceanography, fisheries, ocean energy, marine environment and food safety result data."
+      },
+      {
+        "imageUrl": "https://www.arcgis.com/sharing/rest/content/items/fcc6b2c0cfe84dd2a19efa1361856d9f/resources/images/widget_3/1733394353172.PNG?token=3NKHt6i2urmWtqOuugvr9eluxzg4z9u48HLFoGdvvvAqeUhatiM1ZgxU8bHQtubWuTDGUhDqKohYCOifaerZY1D5TewAyZgQlFNHT1TH_H1yOgnEeqBvk-dZbeU7SCrugFEZ0jGWlEJecEjY4zpLAKJStfhLZ1AHKEYt9LQkWzR4GT-h_S8g28OF-XHQwHNEKCInxjhMupXUgIDWzQL4q1719NOw6qfzraPtw-29vG3r1mr3EJ4aa-WT-y4AmR_n",
+        "url": "https://experience.arcgis.com/experience/fcc6b2c0cfe84dd2a19efa1361856d9f",
+        "title": "The SeaRover Survey",
+        "description": "Visit The SeaRover Survey experience to explore the sensitive ecosystem assessment and ROV exploration of reef survey"
+      }
+    ],
     // Pop-up disclaimer that will be shown at the start
     // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-    // globalDisclaimer: {
-    //     confirmationRequired: false,
-    //     buttonTitle: "I agree",
-    //     title: "Disclaimer",
-    //     // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-    //     // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-    //     //prodHostRegex: "gov.\\.au$",
-    //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-    //     enableOnLocalhost: true // If false, don't show this when running on localhost
-    // },
-    /*
-        developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
+    "globalDisclaimer": {
+      "confirmationRequired": true,
+      "buttonTitle": "I agree",
+      "title": "Disclaimer",
+      //     // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+      //     // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+      //     //prodHostRegex: "gov.\\.au$",
+      //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+      "enableOnLocalhost": true // If false, don't show this when running on localhost
+    },
+
+    "developerAttribution": {
+      "text": "Marine Institute",
+      "link": "http://marine.ie"
+    },
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Terria Map",
+    "appName": "Ireland's Marine Atlas",
+    "storyEnabled": true,
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-      ""
+      "<a target=\"_blank\" href=\"http://atlas.marine.ie\"><img src=\"images/mi_logo.gif\" height=\"60\" title=\"Ireland's Marine Atlas\" width=\"100%\" align =\"center\" /></a>"
     ],
     // Shown when things go wrong.
-    "supportEmail": "help@example.com",
+    "supportEmail": "datarequests@marine.ie",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
-    "feedbackUrl": "feedback",
+    // "feedbackUrl": "feedback",
+
     // Default mobile viewer mode when loading the map for the first time on mobile platforms.
     // Options are: "3DTerrain", "3DSmooth", "2D"
     "mobileDefaultViewerMode": "2d",
@@ -57,7 +132,7 @@
     // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
     "experimentalFeatures": true,
     // To enable welcome message when map first loads
-    // "showWelcomeMessage": true,
+    "showWelcomeMessage": true,
     // To override the welcome message video displayed on the welcome message
     // By default, the Getting Started to Terria video is displayed
     // "welcomeMessageVideo": {
@@ -65,8 +140,10 @@
     //     "videoUrl": "https://www.youtube-nocookie.com/embed/NTtSM70rIvI", // use an embedded video link
     //     "placeholderImage": "https://img.youtube.com/vi/NTtSM70rIvI/maxresdefault.jpg"
     // },
+
     // True to display in-app guides.
-    // "showInAppGuides": false,
+    "showInAppGuides": true,
+
     // see `languageOverrides.json` in languages/en
     "languageConfiguration": {
       "enabled": false,
@@ -77,16 +154,6 @@
       },
       "fallbackLanguage": "en"
     },
-    "searchBarConfig": {},
-    "searchProviders": [
-      {
-        "id": "search-provider/cesium-ion",
-        "type": "cesium-ion-search-provider",
-        "name": "translate#viewModels.searchLocations",
-        "flightDurationSeconds": 1.5,
-        "minCharacters": 3
-      }
-    ],
     "helpContent": [
       {
         "title": "translate#gettingstarted.title",
@@ -139,46 +206,46 @@
           }
           // -- Uncomment to enable the following trainer guides --
           // {
-          //   "title": "translate#stepbystepguide.satelliteimagery.title",
-          //   "footnote": "translate#stepbystepguide.satelliteimagery.footnote",
+          //   "title": "stepbystepguide.satelliteimagery.title",
+          //   "footnote": "stepbystepguide.satelliteimagery.footnote",
           //   "steps": [
           //     {
-          //       "title": "translate#stepbystepguide.satelliteimagery.step1.title",
-          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step1.markdownDescription"
+          //       "title": "stepbystepguide.satelliteimagery.step1.title",
+          //       "markdownDescription": "stepbystepguide.satelliteimagery.step1.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.satelliteimagery.step2.title",
-          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step2.markdownDescription"
+          //       "title": "stepbystepguide.satelliteimagery.step2.title",
+          //       "markdownDescription": "stepbystepguide.satelliteimagery.step2.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.satelliteimagery.step3.title",
-          //     "markdownDescription": "translate#stepbystepguide.satelliteimagery.step3.markdownDescription"
+          //       "title": "stepbystepguide.satelliteimagery.step3.title",
+          //     "markdownDescription": "stepbystepguide.satelliteimagery.step3.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.satelliteimagery.step4.title",
-          //       "markdownDescription": "translate#stepbystepguide.satelliteimagery.step4.markdownDescription"
+          //       "title": "stepbystepguide.satelliteimagery.step4.title",
+          //       "markdownDescription": "stepbystepguide.satelliteimagery.step4.markdownDescription"
           //     }
           //   ]
           // },
           // {
-          //   "title": "translate#stepbystepguide.comparetimeseries.title",
-          //   "footnote": "translate#stepbystepguide.comparetimeseries.footnote",
+          //   "title": "stepbystepguide.comparetimeseries.title",
+          //   "footnote": "stepbystepguide.comparetimeseries.footnote",
           //   "steps": [
           //     {
-          //       "title": "translate#stepbystepguide.comparetimeseries.step1.title",
-          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step1.markdownDescription"
+          //       "title": "stepbystepguide.comparetimeseries.step1.title",
+          //       "markdownDescription": "stepbystepguide.comparetimeseries.step1.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.comparetimeseries.step2.title",
-          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step2.markdownDescription"
+          //       "title": "stepbystepguide.comparetimeseries.step2.title",
+          //       "markdownDescription": "stepbystepguide.comparetimeseries.step2.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.comparetimeseries.step3.title",
-          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step3.markdownDescription"
+          //       "title": "stepbystepguide.comparetimeseries.step3.title",
+          //       "markdownDescription": "stepbystepguide.comparetimeseries.step3.markdownDescription"
           //     },
           //     {
-          //       "title": "translate#stepbystepguide.comparetimeseries.step4.title",
-          //       "markdownDescription": "translate#stepbystepguide.comparetimeseries.step4.markdownDescription"
+          //       "title": "stepbystepguide.comparetimeseries.step4.title",
+          //       "markdownDescription": "stepbystepguide.comparetimeseries.step4.markdownDescription"
           //     }
           //   ]
           // }
@@ -236,13 +303,14 @@
         "content": "translate#helpContentTerm8.content"
       }
     ]
+
     // Or direct strings
     // "helpContent": [
     //   {
     //       "title": "Getting started with the map",
     //       "itemName": "gettingstarted",
     //       "paneMode": "videoAndContent",
-    //       "markdownText": "# Getting started with the map\n\nIf you're new to the map or using spatial data, our Getting Started video quickly covers the basic functionality you'll need to use to add and interrogate data sets.\n\nIf you don't have time to watch the video, we suggest exploring the following areas:\n\n1. Search for a location to quickly find an area of interest\n2. Use 'Explore map data' to view the catalogue of available data sets and add them to the map\n3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench\n4. Click on the data on the map to view more detailed data, including the raw data\n5. Change your basemap using options in 'Map Settings' to help make some data sets more visible\n6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen",
+    //       "markdownText": "# Getting started with the map\n\nIf you're new to the map or using spatial data, our Getting Started video quickly covers the basic functionality you'll need to use to add and interrogate data sets.\n\nIf you don't have time to watch the video, we suggest exploring the following areas:\n\n1. Search for a location to quickly find an area of interest\n2. Use 'Explore map data!!!!!!' to view the catalogue of available data sets and add them to the map\n3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench\n4. Click on the data on the map to view more detailed data, including the raw data\n5. Change your basemap using options in 'Map Settings' to help make some data sets more visible\n6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen",
     //       "icon": "video",
     //       "videoUrl": "https://www.youtube-nocookie.com/embed/FjSxaviSLhc",
     //       "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg"
@@ -264,7 +332,7 @@
     //                   },
     //                   {
     //                       "title": "Add the satellite imagery to the map",
-    //                       "markdownDescription": "- Open the data catalogue using \"Explore map data\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery"
+    //                       "markdownDescription": "- Open the data catalogue using \"Explore map data!!!!!!\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery"
     //                   },
     //                   {
     //                       "title": "Filter images to find satellite imagery",

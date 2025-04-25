@@ -1,768 +1,1280 @@
 {
   "homeCamera": {
-    "north": -8,
-    "east": 158,
-    "south": -45,
-    "west": 109
+    "north": 55.8,
+    "east": 1.9,
+    "south": 50,
+    "west": -31
   },
+  "workbench": ["wo"],
+  "corsDomains": [
+    "data.marine.ie",
+    "atlas.marine.ie",
+    "isde.ie",
+    "secure.dccae.gov.ie",
+    "basemap.marine.ie",
+    "https://data.gov.ie",
+    "https://services-eu1.arcgis.com"
+  ],
   "catalog": [
     {
-      "id": "ZIdekvc10z",
-      "type": "wms-group",
-      "name": "Test",
-      "url": "https://programs.communications.gov.au/geoserver/ows",
+      "type": "group",
+      "isOpen": true,
+      "name": "Marine Institute",
+      "description": "We are the State agency responsible for marine research, technology development and innovation in Ireland.<p>We carry out environmental, fisheries, and aquaculture surveys and monitoring programmes to meet Ireland’s national and international legal requirements. We provide scientific and technical advice to Government to help inform policy and to support the sustainable development of Ireland’s marine resource.<p>We aim to safeguard Ireland’s unique marine heritage through research and environmental monitoring.  Our research, strategic funding programmes, and national marine research platforms support the development of Ireland’s maritime economy.<p>The Marine Institute was set up under the Marine Institute Act 1991: <p><i>to undertake, to coordinate, to promote and to assist in marine research and development and to provide such services related to research and development, that in the opinion of the Institute, will promote economic development  and create employment and protect the marine environment.</i><p>Since then, we have grown from a staff of one to over 170 and our vision is for <p><i>a thriving maritime economy in harmony with the ecosystem and supported by the delivery of excellence in our services.</i>",
       "members": [
         {
-          "type": "wms",
-          "localId": "mybroadband%3AMyBroadband_ADSL_Availability",
-          "legends": [
+          "type": "group",
+          "isOpen": true,
+          "name": "Administrative",
+          "description": "Group containing boundary datasets",
+          "members": [
             {
-              "items": [
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Maritime Boundaries",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Administrative/MaritimeBoundaries/MapServer",
+              "displayGroup": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "Atlas of Commercial Fisheries about Ireland",
+          "description": "In 2024, the Marine Institute published the Atlas of Commercial Fisheries around Ireland, fourth edition. This atlas provides a series of detailed maps of commercial fishing activity around Ireland with the aim of providing insights into fishing activities and fisheries resources. The atlas contains maps of: <br>Fishing effort by vessels of all nationalities by gear type inside the Irish Exclusive Economic Zone (EEZ); <br>Fishing effort by Irish vessels gear type in all areas where it takes place for each; <br>Landings taken by Irish vessels for the main commercially exploited species. <p>The atlas is the fourth of its kind and is based on data from fishing vessels of =12m in length over the period 2018-2022. <p>The vessel monitoring and logbook data that form the basis of the maps were collected under Council Regulation (EC) No. 1224/2009 and were aggregated and processed by the Marine Institute.<p>Fishing is one of the most significant ocean uses in the waters around Ireland. However, the ocean is a shared resource and detailed spatial information on fishing activity is particularly relevant in the context of Ireland’s commitments to offshore wind energy and marine protected areas. The fisheries in Irish waters are highly diverse. A large part of this heterogeneity in the fisheries can be explained by spatial patterns in the availability of the target species and in this Atlas we aim to give insights into these fisheries by providing maps of fishing activities and landings of the most important fish and shellfish species.<p>",
+          "members": [
+            {
+              "type": "esri-group",
+              "isOpen": false,
+              "name": "Fourth Edition 2024",
+              "url": "http://spatial.marine.ie/arcgis/rest/services/HANS/atlas_review_layers/MapServer"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "Biological",
+          "members": [
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Broad Benthic Habitat Type",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/Broad_Benthic_Habitat_Type/MapServer"
+            },
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Fish Species Distribution",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/Fish_Species_Distribution/MapServer"
+            },
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Inshore Fishing Activity",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/InshoreFisheries/MapServer",
+              "displayGroup": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "DFA",
+          "members": [
+            {
+              "type": "esri-group",
+              "isOpen": false,
+              "name": "Continental Shelf Designation Orders",
+              "url": "https://spatial.marine.ie/arcgis/rest/services/DFA/Continental_shelf/MapServer",
+              "displayGroup": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "INFOMAR",
+          "description": "<p>INFOMAR aims to provide comprehensive and accessible marine datasets for Irish waters that underpin and add value to marine research, SOLAS Convention obligations and government policy. These products will foster growth within the national blue economy, maintain the health and integrity of our natural marine environment while facilitating international collaboration and best practice in the sustainable development of Ireland's marine resource.</p><p>The program delivers a wide range of benefits to multi-sectoral end-users across the national blue economy with an emphasis on enabling our stakeholders. Demonstrated applications for the use of INFOMAR's suite of mapping products include:</p><ul><li>Shipping &amp; Navigation</li>	<li>Renewable Energy</li>	<li>Fisheries Management</li>	<li>Aquaculture</li>	<li>Marine Leisure &amp; Tourism</li>	<li>Infrastructure Development</li>	<li>Environmental Monitoring</li>	<li>Coastal Behaviour</li></ul><p>With the first ten year phase (2006-2016) now complete, we are beginning to see how this knowledge has the potential to offer incredible benefits for the island of Ireland. A range of diverse navigational, environmental, cultural and international legislative obligations must also be addressed. There remains a crucially important body of work to follow in mapping our valuable inshore and offshore waters before the programme completion in 2026.</p><p>INFOMAR (Integrated Mapping for the Sustainable Development of Ireland’s Marine Resource) is a twenty year programme to map the physical, chemical and biological features of Ireland’s seabed. INFOMAR is funded by the Department of the Environment, Climate and Communications (DECC), and delivered by joint management partners Geological Survey Ireland and the Marine Institute. The programme has placed Ireland centre-stage as global leaders in marine stewardship, seabed mapping and development of marine resources.</p><p>Download the Real Map of Ireland <a href=\"https://maps.marine.ie/infomarData/variousmaps/PDFs/RealMap/RealMapIreland.pdf\">here</a></p>",
+          "members": [
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "Bathymetry",
+              "description": "This data shows the depth of the seabed around Ireland between 0 and 200 metre depths. The data was collected between 2001 and 2021. <br><br>Bathymetry is the measurement of how deep is the sea. Bathymetry is the study of the shape and features of the seabed. The name comes from Greek words meaning deep and measure. Bathymetry is collected on board boats working at sea and airplanes over land and coastline. The boats use special equipment called a multibeam echosounder. A multibeam echosounder is a type of sonar that is used to map the seabed. Sound waves are emitted in a fan shape beneath the boat. The amount of time it takes for the sound waves to bounce off the bottom of the sea and return to a receiver is used to determine water depth. <br><br> LiDAR (Light Detection and Ranging) is another way to map the seabed, using airplanes. Two laser light beams are emitted from a sensor on-board an airplane. The red beam reaches the water surface and bounces back; while the green beam penetrates the water hits the seabed and bounces back. The difference in time between the two beams returning allows the water depth to be calculated. LiDAR is only suitable for shallow waters (up to 30m depth).<br><br>The data are collected as points in XYZ format. X and Y coordinates and Z (depth). The boat travels up and down the water in a series of lines (trackline). An XYZ file is created for each line and contains thousands of points. The line files are merged together and converted into gridded data to create a Digital Terrain Model of the seabed. <br><br> This data shows areas that have been surveyed. There are plans to fill in the missing areas between 2020 and 2026. The deeper offshore waters were mapped as part of the Irish National Seabed Survey (INSS) between 1999 and 2005. INtegrated Mapping FOr the Sustainable Development of Ireland's MArine Resource (INFOMAR) is mapping the inshore areas. (2006 - 2026).",
+              "members": [
                 {
-                  "title": "A - Best",
-                  "color": "#6B0038"
+                  "type": "esri-mapServer",
+                  "name": "Bathymetry",
+                  "url": "https://spatial.marine.ie/arcgis/rest/services/test/bathymetry/Mapserver",
+                  "opacity": 0.8,
+                  "description": "This data shows the depth of the seabed around Ireland between 0 and 200 metre depths. The data was collected between 2001 and 2021. <br><br>Bathymetry is the measurement of how deep is the sea. Bathymetry is the study of the shape and features of the seabed. The name comes from Greek words meaning deep and measure. Bathymetry is collected on board boats working at sea and airplanes over land and coastline. The boats use special equipment called a multibeam echosounder. A multibeam echosounder is a type of sonar that is used to map the seabed. Sound waves are emitted in a fan shape beneath the boat. The amount of time it takes for the sound waves to bounce off the bottom of the sea and return to a receiver is used to determine water depth. <br><br> LiDAR (Light Detection and Ranging) is another way to map the seabed, using airplanes. Two laser light beams are emitted from a sensor on-board an airplane. The red beam reaches the water surface and bounces back; while the green beam penetrates the water hits the seabed and bounces back. The difference in time between the two beams returning allows the water depth to be calculated. LiDAR is only suitable for shallow waters (up to 30m depth).<br><br>The data are collected as points in XYZ format. X and Y coordinates and Z (depth). The boat travels up and down the water in a series of lines (trackline). An XYZ file is created for each line and contains thousands of points. The line files are merged together and converted into gridded data to create a Digital Terrain Model of the seabed. <br><br> This data shows areas that have been surveyed. There are plans to fill in the missing areas between 2020 and 2026. The deeper offshore waters were mapped as part of the Irish National Seabed Survey (INSS) between 1999 and 2005. INtegrated Mapping FOr the Sustainable Development of Ireland's MArine Resource (INFOMAR) is mapping the inshore areas. (2006 - 2026).",
+                  "featureInfoTemplate": {
+                    "name": "Bathymetry",
+                    "template": "Depth: {{Stretch_Pixel Value}}"
+                  }
                 },
                 {
-                  "title": "B",
-                  "color": "#F41911"
+                  "type": "open-street-map",
+                  "name": "Bathymetry 2D Tiles",
+                  "url": "https://maps.marine.ie/INFOMAR_Tiles/SR_Contours"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "Backscatter",
+              "description": "Seafloor backscatter is defined as the amount of acoustic energy received by the sonar after a complex interaction with the seafloor. This information can be used to determine the physical nature of the seabed, because different bottom types “scatter” sound energy differently. Imagine bouncing and catching a tennis ball on a path and then again on some nearby grass. The ball will return with more strength after bouncing on the path. This is because soft ground absorbs some of the tennis balls energy. And so it is on the seafloor, a soundwave will return with more energy if reflected off rocks while a muddy seabed will absorb the energy and return a weaker signal to the sonar receiver. <p>These differing values can be visualised to show where areas of rock, sand, mud or even coral occur. This information is very useful. At INFOMAR our scientists combine bathymetry and backscatter data collected by MBES to create detailed 3D maps of the sea floor with multiple applications.For example, if you wanted to install a wind turbine on the ocean floor to develop Marine Renewable Energy you need to know what type of seabed to expect.",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "Backscatter",
+                  "url": "http://spatial.marine.ie/arcgis/rest/services/test/Backscatter/MapServer",
+                  "opacity": 0.8,
+                  "legends": [
+                    {
+                      "url": "https://www.infomar.ie/sites/default/files/infomar-logo_0.png"
+                    }
+                  ],
+                  "featureInfoTemplate": {
+                    "name": "Backscatter",
+                    "template": "Read more about INFOMAR Backscatter: https://www.infomar.ie/surveys/hydrography/backscatter"
+                  },
+                  "description": "Seafloor backscatter is defined as the amount of acoustic energy received by the sonar after a complex interaction with the seafloor. This information can be used to determine the physical nature of the seabed, because different bottom types “scatter” sound energy differently. Imagine bouncing and catching a tennis ball on a path and then again on some nearby grass. The ball will return with more strength after bouncing on the path. This is because soft ground absorbs some of the tennis balls energy. And so it is on the seafloor, a soundwave will return with more energy if reflected off rocks while a muddy seabed will absorb the energy and return a weaker signal to the sonar receiver. <p>These differing values can be visualised to show where areas of rock, sand, mud or even coral occur. This information is very useful. At INFOMAR our scientists combine bathymetry and backscatter data collected by MBES to create detailed 3D maps of the sea floor with multiple applications.For example, if you wanted to install a wind turbine on the ocean floor to develop Marine Renewable Energy you need to know what type of seabed to expect."
                 },
                 {
-                  "title": "C",
-                  "color": "#F67F00"
-                },
-                {
-                  "title": "D",
-                  "color": "#D78B6D"
-                },
-                {
-                  "title": "E - Worst",
-                  "color": "#ECD2BE"
-                },
-                {
-                  "title": "No data",
-                  "color": "rgba(0,0,0,0)",
-                  "outlineColor": "black",
-                  "addSpacingAbove": true
+                  "type": "open-street-map",
+                  "name": "Backscatter 2D Tiles",
+                  "url": "https://maps.marine.ie/INFOMAR_Tiles/backscatter"
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "DL4Av6wY5h",
-      "type": "geojson",
-      "name": "GeoJSON Test",
-      "url": "test/bike_racks.geojson"
-    },
-    {
-      "id": "FxPHcHvxoO",
-      "type": "wms-group",
-      "name": "Marine water quality grids for the Great Barrier Reef region - monthly data",
-      "url": "proxy/_0d/http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1M"
-    },
-    {
-      "id": "3chNzj13TB",
-      "type": "wms-group",
-      "name": "WMS layers for the Australian Renewable Energy Mapping Infrastructure project.",
-      "url": "https://gis.aremi.data61.io/bom/wms"
-    },
-    {
-      "type": "magda",
-      "url": "https://data.gov.au",
-      "name": "Magda Item",
-      "isMappable": true,
-      "recordId": "ds-ga-93e51355-f5b9-4219-8dc4-815732d9e869"
-    },
-    {
-      "name": "CSV",
-      "type": "group",
-      "members": [
-        {
-          "type": "csv",
-          "name": "CSV Test",
-          "id": "zrPtHVJcPi",
-          "url": "test/incidents_notime.csv"
         },
+
         {
-          "name": "ABC Photo Stories (2009-2014)",
-          "description": "Australia Broadcasting Company stories from 2009-2014 with accompanying photos.\n\nThis dataset demonstrates the ability to show users a custom feature info panel when they click on a feature on the map.",
-          "type": "csv",
-          "id": "cJiWroyAzU",
-          "url": "test/localphotostories20092014.csv",
-          "featureInfoTemplate": {
-            "template": "<div class='abc'><small>{{Date}}</small>{{#Primary image}}<figure><img src='{{Primary image}}'/><figcaption>{{Primary image caption}}</figcaption></figure>{{/Primary image}}<p><a target='_blank' href={{URL}}>Read More</a></div>"
-          }
-        },
-        {
-          "type": "csv",
-          "name": "Pacific Earthquakes (CSV)",
-          "url": "test/earthquakes.csv",
-          "activeStyle": "Magnitude",
-          "id": "u3nGNh"
-        },
-        {
-          "type": "csv",
-          "name": "Auto Incidents (CSV)",
-          "url": "test/incidents.csv",
-          "activeStyle": "incident_duration",
-          "defaultStyle": {
-            "color": {
-              "binColors": [
-                "rgba(0,0,200,1.0)",
-                "rgba(200,200,200,1.00)",
-                "rgba(200,0,0,1.00)"
-              ],
-              "numberOfBins": 3
-            }
-          },
-          "id": "xtjL6E"
-        },
-        {
-          "type": "csv",
-          "name": "All generation types",
-          "id": "54a553b4",
-          "info": [
-            {
-              "name": "Description",
-              "content": "The AEMO Actual Generation and Load data represents actual generation data for each scheduled generation unit, semi-scheduled generation unit, and non-scheduled generating systems (a non-scheduled generating system comprising non-scheduled generating units) for registered units in the National Electricity Market (NEM). The data is given in MegaWatt (MW). <br/> <br/>Detailed information about the AEMO Generation and Load data is available here: <br/> <br/>[http://aemo.com.au/Electricity/Data/Market-Management-System-MMS/Generation-and-Load](http://aemo.com.au/Electricity/Data/Market-Management-System-MMS/Generation-and-Load) <br/> <br/>Visualisation of AEMO current generation data is based on data files generated every 5 minutes available here: <br/> <br/>[http://www.nemweb.com.au/REPORTS/CURRENT/Dispatch_SCADA/](http://www.nemweb.com.au/REPORTS/CURRENT/Dispatch_SCADA/) <br/> <br/>Visualisation of AEMO historic data is based on daily data files available here: <br/> <br/>[http://www.nemweb.com.au/REPORTS/ARCHIVE/Dispatch_SCADA/](http://www.nemweb.com.au/REPORTS/ARCHIVE/Dispatch_SCADA/) <br/> <br/>AEMO provides a range of data. Raw data is provided in Comma Separated Values (CSV) flat file format to enable access to a range of market data. Recent files are stored in a directory for current reports, and older files are moved into the respective archive reports directory. <br/> <br/>All electricity data provided by AEMO is available here: <br/> <br/>[http://aemo.com.au/Electricity/Data](http://aemo.com.au/Electricity/Data)"
-            },
-            {
-              "name": "Updates",
-              "content": "The Actual Generation and Load data is updated in 5-minute intervals."
-            },
-            {
-              "name": "Data Custodian",
-              "content": "AEMO is the data custodian of electricity generation data displayed on AREMI. Please refer to attribution, licensing and copyrights provisions further on this page. <br/> <br/>The Australian Energy Market Operator (AEMO) was established by the Council of Australian Governments (COAG) to manage the National Electricity Market (NEM) and gas markets from 1 July 2009. <br/> <br/>AEMO’s core functions can be grouped into the following areas: 1) Electricity Market Operator; 2) Gas Markets Operator; 3) National Transmission Planner; 4) Transmission Services; 5) Energy Market Development. <br/> <br/>AEMO operates on a cost recovery basis as a corporate entity limited by guarantee under the Corporations Law. Its membership structure is split between government and industry, respectively 60 and 40 percent. Government members of AEMO include the Queensland, New South Wales, Victorian, South Australian and Tasmanian state governments, the Commonwealth and the Australian Capital Territory. <br/> <br/>As part of the role of managing the NEM and assisting industry, AEMO publishes electricity market data updated in 5 minute intervals and on a daily, monthly and annual basis. Categories of data published are: <br/> <br/>1) Price and demand; <br/>2) Forecast supply and demand; <br/>3) Market notices; <br/>4) Ancillary services; <br/>5) Network data; <br/>6) Pre-dispatch demand forecasting performance; <br/>7) Settlements; <br/>8) Market management system (MMS) (which includes Generation & Load data). <br/> <br/>More information on AEMO and services provided is available here: <br/> <br/>[http://aemo.com.au/About-AEMO](http://aemo.com.au/About-AEMO)"
-            },
-            {
-              "name": "Licensing, Terms & Conditions",
-              "content": "Australian Energy Market Operator (AEMO) is the data custodian for Generation & Load data sets, available on AEMO’s website. <br/><br/>AREMI is displaying the data under AEMO’s licencing and copyright conditions detailed below. <br/><br/>The data is provided for information only and is not intended for commercial use. AEMO does not guarantee the accuracy of the data or its availability at all times.<br/><br/>AEMO, or its licensors, are the owners of all copyright and all other intellectual property rights in the contents of the AEMO website (including text and images). Users may only use such contents for personal use or as authorised by AEMO. Here are the details of the AEMO’s copyright permissions: <br/><br/>AEMO Material comprises documents, reports, sound and video recordings and any other material created by or on behalf of AEMO and made publicly available by AEMO. All AEMO Material is protected by copyright under Australian law. A publication is protected even if it does not display the © symbol.  <br/><br/>In addition to the uses permitted under copyright laws, AEMO confirms its general permission for anyone to use AEMO Material for any purpose, but only with accurate and appropriate attribution of the relevant AEMO Material and AEMO as its author. There is no need to obtain specific permission to use AEMO Material in this way. Confidential documents and any reports commissioned by another person or body who may own the copyright in them and NOT AEMO Material, and these permissions do not apply to those documents. <br/><br/>More information on conditions of use of AEMO generated data and information is available on the AEMO website: [http://aemo.com.au/About-AEMO/Legal-Notices](http://aemo.com.au/About-AEMO/Legal-Notices)"
-            }
-          ],
-          "url": "https://services.aremi.data61.io/aemo/v6/csv/all",
-          "cacheDuration": "5m",
-          "rectangle": {
-            "west": 134,
-            "south": -47,
-            "east": 155,
-            "north": -13
-          },
-          "polling": {
-            "seconds": 300,
-            "shouldReplaceData": true
-          },
-          "columns": [
-            {
-              "name": "Station Name",
-              "type": "hidden"
-            },
-            {
-              "name": "Participant",
-              "type": "hidden"
-            },
-            {
-              "name": "Physical Unit No.",
-              "type": "hidden"
-            },
-            {
-              "name": "Aggregation",
-              "type": "hidden"
-            },
-            {
-              "name": "DUID",
-              "type": "hidden"
-            },
-            {
-              "name": "CSV for last 24h",
-              "type": "hidden"
-            },
-            {
-              "name": "CSV for all data",
-              "type": "hidden"
-            },
-            {
-              "name": "Latest 24h generation",
-              "type": "hidden"
-            },
-            {
-              "name": "Unit Size (MW)",
-              "type": "hidden"
-            }
-          ],
-          "activeStyle": "Current % of Max Cap",
-          "defaultColumn": {
-            "replaceWithZeroValues": [],
-            "replaceWithNullValues": ["-"]
-          },
-          "defaultStyle": {
-            "time": {
-              "timeColumn": null
-            },
-            "color": {
-              "nullColor": "rgba(255,255,255,0.1)",
-              "nullLabel": "No value",
-              "numberOfBins": 10,
-              "binColors": [
-                "rgb(94,79,162)",
-                "rgb(50,136,189)",
-                "rgb(102,194,165)",
-                "rgb(171,221,164)",
-                "rgb(230,245,152)",
-                "rgb(254,224,139)",
-                "rgb(253,174,97)",
-                "rgb(244,109,67)",
-                "rgb(213,62,79)",
-                "rgb(158,1,66)"
-              ]
-            }
-          },
-          "featureInfoTemplate": {
-            "name": "{{DUID}} - {{Station Name}}: {{Current % of Max Cap}}%",
-            "template": "<h3>{{Station Name}} ({{DUID}})</h3><p><strong>{{Participant}}</strong><div><strong>{{Current Output (MW)}}MW</strong> at {{Most Recent Output Time (AEST)}}</div><div><strong>{{Current % of Reg Cap}}%</strong> of {{Reg Cap (MW)}}MW registered capacity</div><div><strong>{{Current % of Max Cap}}%</strong> of {{Max Cap (MW)}}MW maximum capacity</div></p><table>  <tbody>    <tr>      <td>Category</td>      <td class='strong'>{{Category}}</td>    </tr>    <tr>      <td>Classification</td>      <td class='strong'>{{Classification}}</td>    </tr>    <tr>      <td>Fuel Source</td>      <td class='strong'>{{Fuel Source - Primary}} ({{Fuel Source - Descriptor}})</td>    </tr>    <tr>      <td>Technology Type</td>      <td class='strong'>{{Technology Type - Primary}} ({{Technology Type - Descriptor}})</td>    </tr>    <tr>      <td>Physical Unit No.</td>      <td class='strong'>{{Physical Unit No_}}</td>    </tr>    <tr>      <td>Unit Size (MW)</td>      <td class='strong'>{{Unit Size (MW)}}</td>    </tr>    <tr>      <td>Aggregation</td>      <td class='strong'>{{Aggregation}}</td>    </tr>    <tr>      <td>Region</td>      <td class='strong'>{{Region}}</td>    </tr>    <tr><td>Power generation</td><td><chart id='{{DUID}}' title='{{Station Name}} ({{DUID}})' poll-seconds='300' poll-replace='true' sources='https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=1D,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=7D,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=1M,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=3M' source-names='1d,7d,1m,3m' downloads='https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=7D,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=1M,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}?offset=3M,https://services.aremi.data61.io/aemo/v6/duidcsv/{{#terria.urlEncodeComponent}}{{DUID}}{{/terria.urlEncodeComponent}}' download-names='7d,1m,3m,All available' preview-x-label='Last 24 hours' column-names='Time,Power Generation' column-units='Date,MW'></chart></td></tr>  </tbody></table>"
-          }
-        },
-        {
-          "name": "Charts",
           "type": "group",
+          "isOpen": true,
+          "name": "Physical",
           "members": [
             {
-              "name": "Sheep Stations",
-              "type": "csv",
-              "id": "lF2xGFgl7V",
-              "url": "build/TerriaJS/test/csv/lat_lon_nullvalue.csv",
-              "featureInfoTemplate": {
-                "name": "Number {{value}}",
-                "template": "<p>All sheep stations have the same time series plot.</p><chart src='build/TerriaJS/test/csv_nongeo/time_series.csv' column-units=',litres,horsepower' y-column='1'></chart>"
-              }
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Geology",
+              "url": "https://spatial.marine.ie/arcgis/rest/services/atlas/Geology/MapServer",
+              "excludeMembers": ["Marine Aggregates"]
             },
             {
-              "id": "zdjwipNdnA",
-              "name": "XY Plot",
-              "type": "csv",
-              "url": "build/TerriaJS/test/csv_nongeo/xy.csv"
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Marine Aggregates",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/MarineAggregates/MapServer"
             },
             {
-              "id": "jiE3seDFUz",
-              "name": "Time series",
-              "type": "csv",
-              "url": "build/TerriaJS/test/csv_nongeo/time_series.csv"
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Ocean Monitoring",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/OceanMonitoring/MapServer",
+              "displayGroup": true
             },
             {
-              "id": "xrD8v0H4cn",
-              "name": "Train Stations",
-              "type": "csv",
-              "url": "build/TerriaJS/test/csv/lat_lon_nullvalue.csv",
-              "featureInfoTemplate": {
-                "name": "Number {{value}}",
-                "template": "<p>All train stations have the same x-y plot.</p><chart src='build/TerriaJS/test/csv_nongeo/xy.csv'></chart>"
-              }
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Offshore Energy",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/OffshoreEnergy/MapServer"
             },
             {
-              "id": "tBRj9qi1b6",
-              "name": "Chart with inline data",
-              "type": "csv",
-              "url": "build/TerriaJS/test/csv/lat_lon_name_value.csv",
-              "featureInfoTemplate": {
-                "template": "<p>Chart with inline data</p><chart>x,y\n1,3\n5,10\n8,-2\n10,{{value}}\n</chart>"
-              }
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Ports and Shipping",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Ports_and_Shipping/MapServer",
+              "displayGroup": true
+            },
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Seabed - OSPAR Common Indicator BH3",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Seabed/MapServer"
+            },
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Seascapes",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Seascapes/MapServer"
+            },
+            {
+              "type": "esri-mapServer-group",
+              "isOpen": false,
+              "name": "Tourism",
+              "url": "https://basemap.marine.ie/arcgis/rest/services/Physical/Tourism/MapServer"
             }
           ]
-        },
+        }
+      ]
+    },
+
+    {
+      "type": "group",
+      "name": "National Parks and Wildlife Service",
+      "description": "<strong>The role of National Parks and Wildlife Service (NPWS) is:</strong></p><ul><li>To secure the conservation of a representative range of ecosystems to maintain and enhance populations of flora and fauna in Ireland.</li><li>To designate and advise on the protection of habitats and species identified for nature conservation (<a href=\"https://www.npws.ie/protected-sites/nha\">Natural Heritage Areas (NHA)</a>, <a href=\"https://www.npws.ie/protected-sites/sac\">Special Areas of Conservation (SAC)</a> and <a href=\"https://www.npws.ie/protected-sites/spa\">Special Protection Areas (SPA)</a>&nbsp;having particular regard to the need to consult with interested parties.</li> <li>To make the necessary arrangements for the implementation of National and EU legislation and policies for nature conservation and biodiversity including the <a href=\"https://www.npws.ie/legislation/eu-directives\">EU Habitats and Birds Directives</a>, and for the ratification and implementation of the range of international Conventions and Agreements relating to the natural heritage.</li> <li>To manage, maintain and develop State-owned National Parks and Nature Reserves.</li> <li>To promote awareness of natural heritage and biodiversity&nbsp;issues through education, outreach to schools and engaging with stakeholders.</li> </ul><p>The National Parks and Wildlife Service is part of the Heritage Division of the Department of Housing, Local Government &amp; Heritage. The NPWS as an Executive Agency&nbsp;oversees:</p><ul><li>Policy and management of National Parks and Reserves, Nature Services strategy, Finance and Regional operational procedures (including enforcement and health and safety).</li><li>The Wildlife Acts and EU Directive transposition, NATURA Policy, Licensing provisions under the Wildlife Acts, Modernisation of property management, Policy on residential properties in national parks and the Departments Development Applications Unit.</li><li>Peatland Policy, Turf compensation and relocation schemes, Land Designation, Land restoration/cross compliance.</li><li>Scientific Support, Biodiversity policy and international issues, CITES and exotic species, Agri-Environment policy and schemes, Marine and aquaculture issues, Education Service and Data management.</li></ul>",
+
+      "members": [
         {
-          "id": "vliQsF",
           "type": "group",
-          "name": "Region mapping (CSV)",
+          "isOpen": true,
+          "name": "Administrative",
+          "description": "Group containing boundary datasets",
           "members": [
             {
-              "id": "hWvbL27nGK",
-              "type": "terria-reference",
-              "name": "Other ASGS 2021 region types",
-              "url": "https://tile-test.terria.io/region-test-csvs/asgs-2021-leftovers-catalog.json",
-              "isGroup": true
-            },
-            {
-              "type": "csv",
-              "name": "SEIFA 2011 (POA)",
-              "url": "test/SEIFA_POA_2011.csv",
-              "activeStyle": "Socio-economic_Disadvantage",
-              "defaultStyle": {
-                "color": {
-                  "binColors": ["rgba(0,0,0,1.00)", "rgba(0,200,0,1.0)"],
-                  "numberOfBins": 2
-                }
-              },
-              "id": "xy7CLN"
-            },
-            {
-              "type": "csv",
-              "name": "NEXIS NSW 2012 (LGA)",
-              "url": "test/NSW_LGA_NEXIS_201212.csv",
-              "id": "L1saxB"
-            },
-            {
-              "type": "csv",
-              "name": "2011 Census AUST (STE)",
-              "url": "test/2011Census_AUST_STE.csv",
-              "id": "gdXiXM"
-            },
-            {
-              "type": "csv",
-              "name": "2011 Census AUST (CED)",
-              "url": "test/2011Census_AUST_CED.csv",
-              "columns": [
-                {
-                  "name": "ced",
-                  "regionType": "CED_CODE_2011"
-                }
-              ],
-              "id": "5Gp6JZ"
-            },
-            {
-              "type": "csv",
-              "name": "2011 Census AUST (SA4)",
-              "url": "test/2011Census_AUST_SA4.csv",
-              "columns": [
-                {
-                  "name": "sa4",
-                  "regionType": "SA4_2011"
-                }
-              ],
-              "id": "IiYNss"
-            },
-            {
-              "type": "csv",
-              "name": "States STEM 2013",
-              "url": "test/states_stem_2013.csv",
-              "id": "wJJzvz"
-            },
-            {
-              "type": "csv",
-              "name": "Country Regions",
-              "url": "test/countries.csv",
-              "activeStyle": "ITU-T Telephone Code",
-              "id": "xcEqRI"
-            },
-            {
-              "type": "csv",
-              "name": "Droughts by Country",
-              "url": "test/droughts.csv",
-              "activeStyle": "Total affected",
-              "id": "WAx8gl"
-            },
-            {
-              "type": "csv",
-              "name": "State Mask Test",
-              "url": "test/states_stem_2013.csv",
-              "opacity": 1,
-              "activeStyle": "Mask",
-              "defaultStyle": {
-                "color": {
-                  "binColors": ["rgba(0,0,0,0.0)", "rgba(0,0,0,1.0)"],
-                  "numberOfBins": 2
-                }
-              },
-              "id": "3Wtr3E"
-            },
-            {
-              "type": "csv",
-              "name": "SA1_2021",
-              "id": "ccbHOTMZnM",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA1_2021_SA1_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA2_2021",
-              "id": "K3VrITMGe4",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA2_2021_SA2_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA2_NAME_2021",
-              "id": "rWE8gKC7Pb",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA2_2021_SA2_NAME_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA3_2021",
-              "id": "PUvcYBKZRD",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA3_2021_SA3_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA3_NAME_2021",
-              "id": "zy1XT2Tozd",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA3_2021_SA3_NAME_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA4_2021",
-              "id": "XgfiF4hqub",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA4_2021_SA4_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "SA4_NAME_2021",
-              "id": "Ep0MRHLxMm",
-              "url": "https://tile-test.terria.io/region-test-csvs/SA4_2021_SA4_NAME_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "GCCSA_2021",
-              "id": "JjiFvunrMF",
-              "url": "https://tile-test.terria.io/region-test-csvs/GCCSA_2021_GCCSA_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "GCCSA_NAME_2021",
-              "id": "7wfxltvumA",
-              "url": "https://tile-test.terria.io/region-test-csvs/GCCSA_2021_GCCSA_NAME_2021.csv"
-            },
-            {
-              "type": "csv",
-              "name": "LGA_2019",
-              "id": "YSK6at0rVn",
-              "url": "https://tile-test.terria.io/region-test-csvs/LGA_2019_LGA_2019.csv"
-            },
-            {
-              "type": "csv",
-              "name": "LGA_2021",
-              "id": "VlepKgBjtp",
-              "url": "https://tile-test.terria.io/region-test-csvs/LGA_2021_LGA_2021.csv"
+              "type": "esri-featureServer-group",
+              "isOpen": true,
+              "name": "Designated Areas",
+              "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/NPWSDesignatedAreas/FeatureServer"
             }
           ]
         }
       ]
     },
     {
-      "name": "KML/KMZ files",
       "type": "group",
+      "isOpen": true,
+      "name": "Environmental Protection Agency",
+      "description": "The Environmental Protection Agency (EPA) is responsible for protecting and improving the environment as a valuable asset for the people of Ireland. We are committed to protecting people and the environment from the harmful effects of radiation and pollution. We play key roles in environmental regulation, provision of knowledge and advocacy for the environment.<p>The EPA provides environmental data, assessments and evidence to inform decision making and implements effective regulation and environmental compliance systems – while working with others to advocate for a clean, healthy and well protected environment and sustainable environmental behaviour.",
       "members": [
         {
-          "id": "GRdrd3M2KY",
-          "name": "Simple Test (KML)",
-          "type": "kml",
-          "url": "test/simple.kml"
+          "type": "wms-group",
+          "name": "Bathing Water",
+          "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+          "includeMembersRegex": "BathingWater"
         },
         {
-          "id": "Pdo7xbE1EF",
-          "name": "Vic Police (KML)",
-          "type": "kml",
-          "url": "test/vic_police.kml"
+          "type": "wms-group",
+          "name": "Urban Waste Water Treatment",
+          "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+          "includeMembersRegex": "UrbanWasteWater"
         },
         {
-          "id": "uIVB6p3eBm",
-          "name": "Vic Police (KMZ)",
-          "type": "kml",
-          "url": "test/vic_police.kmz"
-        }
-      ]
-    },
-    {
-      "name": "CZML files",
-      "type": "group",
-      "members": [
-        {
-          "id": "rd4YAInjh1",
-          "name": "Simple Test (CZML)",
-          "type": "czml",
-          "url": "test/simple.czml"
+          "type": "wfs-group",
+          "name": "Domestic Waste Water Treatment Systems (DWWTS)",
+          "url": "https://gis.epa.ie/geoserver/DWWTS/wfs?"
         },
         {
-          "id": "wqEHOmOnto",
-          "name": "Large feature info box (CZML)",
-          "type": "czml",
-          "url": "test/bigInfobox.czml"
+          "type": "wfs-group",
+          "name": "Monitoring",
+          "url": "https://gis.epa.ie/geoserver/EPA/wfs?",
+          "includeMembersRegex": "MON_"
         },
         {
-          "id": "1Zv1WlgUt0",
-          "name": "Embedded CZML",
-          "type": "czml",
-          "czmlData": [
+          "type": "wms-group",
+          "name": "Corine Land Cover",
+          "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+          "includeMembersRegex": "LAND_"
+        },
+        {
+          "type": "wfs-group",
+          "name": "Mines",
+          "url": "https://gis.epa.ie/geoserver/EPA/wfs?",
+          "includeMembersRegex": "MINES_"
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "Water Framework Directive",
+          "members": [
             {
-              "id": "document",
-              "version": "1.0"
+              "type": "wms-group",
+              "name": "WFD Coastal Waterbodies",
+              "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+              "includeMembersRegex": "WFD_COASTALWATERBODIES"
             },
             {
-              "position": {
-                "cartographicDegrees": [133.0, -25.0, 0.0]
-              },
-              "point": {
-                "pixelSize": 5,
-                "color": {
-                  "rgba": [255, 0, 0, 255]
-                }
-              }
+              "type": "wms-group",
+              "name": "WFD Coastal Waterbodies Status",
+              "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+              "includeMembersRegex": "WFD_CWB"
+            },
+            {
+              "type": "wms-group",
+              "name": "WFD Transitional Waterbodies",
+              "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+              "includeMembersRegex": "WFD_Transitionalwaterbodies"
+            },
+            {
+              "type": "wms-group",
+              "name": "WFD Transitional Waterbodies Status",
+              "url": "https://gis.epa.ie/geoserver/EPA/wms?",
+              "includeMembersRegex": "WFD_TWB"
             }
           ]
         }
       ]
     },
     {
-      "name": "GeoJSON",
       "type": "group",
+      "isOpen": true,
+      "name": "DAFM",
+      "description": "To lead the sustainable development of the agri-food, forestry and marine sector and to optimise its contribution to national economic development and the natural environment.",
       "members": [
         {
-          "name": "Test styled and unstyled features",
-          "type": "geojson",
-          "url": "build/TerriaJS/test/GeoJSON/test-styles.geojson"
+          "type": "esri-featureServer",
+          "name": "Licensed Aquaculture Sites",
+          "url": "https://utility.arcgis.com/usrsvcs/servers/5e627e07b8574302a22944ee789c6e2f/rest/services/Hosted/Aquamis_Production_View_Public/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "type": "esri-group",
+      "name": "ICES",
+      "description": "The International Council for the Exploration of the Sea (ICES) is an intergovernmental marine science organization, meeting societal needs for impartial evidence on the state and sustainable use of our seas and oceans.<p>​​​​Our goal is to advance and share scientific understanding of marine ecosystems and the services they provide and to use this knowledge to generate state-of-the-art advice for meeting conservation, management, and sustainability goals. <p>We are a network of nearly 6000 scientists from over 700 marine institutes in our 20 member countries and beyond. Over 2500 scientists participate in our activities annually.<p>Through strategic partnerships our work in the Atlantic Ocean also extends into the Arctic, the Mediterranean Sea, the Black Sea, and the North Pacific Ocean.",
+      "url": "https://gis.ices.dk/gis/rest/services/ICES_reference_layers",
+      "excludeMembers": ["Nephrops function units draft"]
+    },
+    {
+      "type": "group",
+      "isOpen": true,
+      "name": "MarinePlan.ie",
+      "description": "<a href=\"https://www.gov.ie/en/publication/a4a9a-national-marine-planning-framework/\"><img src=\"https://marineplan.ie/cdn/12/resources/images/widget_3569/1635514013006.png\"></a>",
+      "members": [
+        {
+          "type": "esri-featureServer-group",
+          "name": "Aquaculture",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Aquaculture/FeatureServer"
         },
         {
-          "name": "Test overriding styled and unstyled features",
-          "type": "geojson",
-          "url": "build/TerriaJS/test/GeoJSON/test-styles.geojson",
-          "style": {
-            "marker-size": "200",
-            "marker-color": "#ff3333",
-            "marker-symbol": "rail"
-          }
+          "type": "esri-featureServer-group",
+          "name": "Biodiversity",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/NMPF_5_1_1_Biodiversity/FeatureServer/"
         },
         {
-          "name": "Testing stroke styles applied to embedded unstyled point.",
-          "type": "geojson",
-          "url": "build/TerriaJS/test/GeoJSON/test-styles.geojson",
-          "style": {
-            "stroke-width": 20,
-            "stroke": "red",
-            "marker-size": "200"
-          },
-          "geoJsonData": {
-            "type": "FeatureCollection",
-            "features": [
-              {
-                "type": "Feature",
-                "properties": {
-                  "name": "Thick red border, unspecified centre"
+          "type": "group",
+          "isOpen": false,
+          "name": "Climate Change",
+          "members": [
+            {
+              "type": "esri-mapServer",
+              "name": "Climate Change",
+              "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Contribution_to_Carbon_Sequestration/MapServer/0"
+            }
+          ]
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Defense and Security",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Defense_and_Security/FeatureServer/"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Economic",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_6_Economic___Thriving_Maritime_Economy/FeatureServer/"
+        },
+        {
+          "type": "group",
+          "isOpen": false,
+          "name": "Energy - Offshore Renewable",
+          "members": [
+            {
+              "type": "esri-featureServer-group",
+              "name": "Infrastructure",
+              "isOpen": false,
+              "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_15_Energy_Offshore_Renewable/FeatureServer"
+            },
+            {
+              "type": "esri-featureServer-group",
+              "name": "SC DMAP Proposal Boundary",
+              "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/DMPA_Proposal_Boundary/FeatureServer"
+            },
+            {
+              "type": "esri-featureServer-group",
+              "name": "Met Ocean Data",
+              "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Met_Ocean_Data/FeatureServer"
+            }
+          ]
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Energy - Petroleum",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Energy_Petroleum/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Energy - Petroleum",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Energy_Petroleum/FeatureServer"
+        },
+        {
+          "type": "group",
+          "isOpen": false,
+          "name": "Fisheries",
+          "description": "As an Island nation, fishing has always been economically and socially important to our country. Ireland’s proximity to the rich, productive seas of the North East Atlantic provides an ideal resource on which to continue to develop the seafood sector. Ireland’s coastline, inshore and offshore waters contain some of the largest and most valuable sea fisheries resources in Europe. <p>The NMPF supports management of sea-fisheries resources consistent with relevant environmental sustainability considerations and the development of the sector’s economic and social contribution to rural and coastal communities. The NMPF’s objectives in this sector include continuing to develop a sustainable seafood sector focused on competitiveness and innovation, with growth driven by a skilled workforce delivering value added products in line with market demands; promotion of a sustainable, profitable and self-reliant industry; sustaining primary food producers contributing to food security at a national and European level.  The evaluation of potential impacts on any commercial sea fishing activities needs to be given full consideration. Engagement with the fishing industry and other relevant stakeholders should occur as early as possible in planning or proposal-related processes to afford a chance for proper consideration of the industry’s views.",
+          "members": [
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "Effort",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "Beam Trawl Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Beam_Trawl_Fishing_Effort/MapServer/0"
                 },
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [146.469, -40.83]
+                {
+                  "type": "esri-mapServer",
+                  "name": "Dredge Trawl Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Dredge_Trawl_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Pelagic Trawl Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Pelagic_Trawl_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Long-Line Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Long_Line_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Pot Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Pot_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Seines Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Seines_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Gill Net Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Gill_Net_Fishing_Effort/MapServer/0"
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Otter Trawl Fishing Effort",
+                  "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Otter_Trawl_Fishing_Effort/MapServer/0"
                 }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "url": "http://services.ga.gov.au/gis/rest/services/GA_Surface_Geology/MapServer",
-      "type": "esri-mapServer",
-      "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
-      "name": "Surface Geology",
-      "rectangle": { "west": 106, "south": -52, "east": 172, "north": -8 },
-      "info": [
-        {
-          "name": "Licence",
-          "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-        }
-      ]
-    },
-    {
-      "name": "Small glTF 3D Models",
-      "description": "Demonstrations of adding 3D building data to the map using glTF.",
-      "type": "group",
-      "members": [
-        {
-          "name": "Smooth Geelong Buildings glTF Mini Demo",
-          "description": "geelong_mini_demo_bin_linux_v1.0-draft_x64.gltf was created using data made available from the [City of Greater Geelong](mailto:gis@geelongcity.vic.gov.au) under a Creative Commons license. The data used to create this demo was originally obtained via email in .skp format (> 100MB so not suitable for inclusion in this repo), however there is also a lower quality dataset of the same region available on data.gov.au in .kml/.dae format (this dataset does not seem to contain building textures).\n\nSee [readme.txt](test/3d/geelong/readme.txt) for more information.",
-          "attribution": "geelong_mini_demo_bin_linux_v1.0-draft_x64.gltf was created using a dataset obtained from the City of Greater Geelong. The original dataset is licensed under the CC BY 3.0 AU.",
-          "type": "czml",
-          "url": "test/3d/geelong/smooth.czml",
-          "rectangle": {
-            "west": 144.354,
-            "south": -38.147,
-            "east": 144.358,
-            "north": -38.15
-          }
+              ]
+            },
+            {
+              "type": "esri-featureServer-group",
+              "name": "Species",
+              "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Appendix_E_Maps_of_Fish_Spawning_and_Nursery_Grounds/FeatureServer"
+            },
+            {
+              "type": "esri-featureServer-group",
+              "name": "Ports, Harvesting, Distribution",
+              "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_16_Fisheries/FeatureServer"
+            }
+          ]
         },
         {
-          "name": "Terrain Geelong Buildings glTF Mini Demo",
-          "description": "geelong_mini_demo_bin_linux_v1.0-draft_x64.gltf was created using data made available from the [City of Greater Geelong](mailto:gis@geelongcity.vic.gov.au) under a Creative Commons license. The data used to create this demo was originally obtained via email in .skp format (> 100MB so not suitable for inclusion in this repo), however there is also a lower quality dataset of the same region available on data.gov.au in .kml/.dae format (this dataset does not seem to contain building textures).\n\nSee [readme.txt](test/3d/geelong/readme.txt) for more information.",
-          "attribution": "geelong_mini_demo_bin_linux_v1.0-draft_x64.gltf was created using a dataset obtained from the City of Greater Geelong. The original dataset is licensed under the CC BY 3.0 AU.",
-          "type": "czml",
-          "url": "test/3d/geelong/terrain.czml",
-          "rectangle": {
-            "west": 144.354,
-            "south": -38.147,
-            "east": 144.358,
-            "north": -38.15
-          }
+          "type": "esri-featureServer-group",
+          "name": "Heritage Assets",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_7_3_Heritage_Assets/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Protected Marine Sites",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Protected_Marine_Sites/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Ports, Harbours, Shipping",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Ports_Harbours_and_Shipping/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Sport and Recreation",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Sport_and_Recreation/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Sea-floor and Water Column Integrity",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Sea_Floor_and_Water_Column_Integrity/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Seascape and Landscape",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Seascape_And_Landscape/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Tourism",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Tourism/FeatureServer"
+        },
+        {
+          "type": "esri-featureServer-group",
+          "name": "Water Quality, Wastewater Treatment and Disposal",
+          "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Wastewater_Treatment_and_Disposal/FeatureServer"
         }
       ]
     },
     {
-      "type": "gtfs",
-      "url": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
-      "image": "build/TerriaJS/images/icons/sydney_bus_icon_smaller.png",
-      "name": "NSW Live Transport - Buses",
-      "headers": [
-        {
-          "name": "Authorization",
-          "value": "apikey l4VnvZi4uQLSvD7lwN2ac7vIDJUJ3epYva4l"
-        }
-      ],
-      "refreshInterval": 5,
-      "featureInfoTemplate": {
-        "name": "{{vehicle_trip_bus_number}}",
-        "template": "<b>Bus:</b> {{route_short_name}}<br><b>Occupancy:</b> {{occupancy_status_str}}<br><b>Speed:</b> {{speed_km}} km/h<br><b style='padding-right: 5px'>Direction:</b> <span style='transform: rotate({{bearing}}deg); width: 10px; display: inline-block' aria-label='{{bearing}} degrees' role='img' title='{{bearing}} degrees'>&#x2B06;</div>"
-      },
-      "model": {
-        "url": "lowpoly_bus/scene.gltf",
-        "scale": 0.3048,
-        "maximumDistance": 500.0
-      }
-    },
-    {
-      "type": "esri-mapServer-group",
-      "name": "Catchment Scale Land Use",
-      "id": "354db2f2",
-      "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-      "forceProxy": true
-    },
-    {
-      "id": "5z6OTFssaW",
-      "name": "CSIRO Soil and Landscape Grid",
-      "url": "https://www.asris.csiro.au/arcgis/rest/services/TERN",
-      "type": "esri-group"
-    },
-    {
-      "id": "lIvVnuKJA9",
-      "name": "Sentinel-2 cloudless world 2016",
-      "type": "wmts",
-      "url": "https://a.s2maps-tiles.eu/wmts/",
-      "layer": "s2cloudless_3857",
-      "style": "default",
-      "opacity": 1
-    },
-    {
-      "id": "jCJmccfll6",
-      "name": "Sentinel-2 cloudless world 2018",
-      "type": "wmts",
-      "url": "https://a.s2maps-tiles.eu/wmts/",
-      "layer": "s2cloudless-2018_3857",
-      "style": "default",
-      "opacity": 1
-    },
-    {
-      "id": "HrWLyyyo6V",
-      "name": "Sentinel-2 cloudless world 2019",
-      "type": "wmts",
-      "url": "https://a.s2maps-tiles.eu/wmts/",
-      "layer": "s2cloudless-2019_3857",
-      "style": "default",
-      "opacity": 1
-    },
-    {
-      "id": "B8gpm2I3gB",
-      "name": "Sentinel-2 cloudless world 2020",
-      "type": "wmts",
-      "url": "https://a.s2maps-tiles.eu/wmts/",
-      "layer": "s2cloudless-2020_3857",
-      "style": "default",
-      "opacity": 1
-    },
-    {
-      "id": "IaRi3Qn1pj",
       "type": "group",
-      "name": "Hydro Energy Storage",
+      "isOpen": true,
+      "name": "Met Éireann",
       "members": [
         {
-          "id": "uhsE72",
+          "type": "geojson",
+          "url": "https://data.gov.ie/dataset/2076e2fa-1027-4100-a7e5-f20f82116f22/resource/2a68835f-940c-42c6-a3df-3d179a49d36f/download/sea-areas.geojson",
+          "name": "Met Éireann Sea Area warnings map polygons",
+          "styles": [
+            {
+              "id": "User Style",
+              "color": {
+                "colorColumn": "NAME"
+              },
+              "outline": { "null": { "color": "rgba(255,255,255,255)" } },
+              "hidden": false
+            }
+          ],
+          "activeStyle": "User Style",
+          "description": "This dataset provides map polygons for sea areas used in sea area warnings. The dataset includes the naming convention and EMMA IDs for each area adjacent to the coastline."
+        }
+      ]
+    },
+    {
+      "type": "esri-group",
+      "name": "Tailte Éireann",
+      "description": "<p>Tailte Éireann is an independent Government agency under the aegis of the Department of Housing, Local Government and Heritage.</p><p>Providing a property registration system, property valuation service, and national mapping and surveying infrastructure for the State.</p><p>The legislation that established Tailte Éireann can be found at <a href=\"https://www.irishstatutebook.ie/eli/2022/act/50/enacted/en/print?printonload=true\"><b>Tailte Éireann Act 2022</b></a>",
+      "url": "https://services-eu1.arcgis.com/FH5XCsx8rYXqnjF5/arcgis/rest/services/"
+    },
+
+    {
+      "type": "group",
+      "isOpen": true,
+      "name": "EMODnet Human Activities Data",
+      "description": "EMODnet Human Activities aims to facilitate access to existing marine data on activities carried out in EU waters, by building a single entry point for geographic information on 20 different themes.<p>Data on marine and maritime human activities are essential for effectively managing our seas and oceans in a sustainable way. This is becoming increasingly necessary due to growing population size and greater demand for resources, combined with advances in technology, resulting in a huge increase in the number and extent of marine and maritime human activities. These range from established activities such as fisheries and shipping to more recent activity such as construction of offshore energy facilities. Whilst there is considerable data available on these activities it is often only available on a per country, regional or sector-by-sector basis.",
+      "members": [
+        {
           "type": "group",
-          "name": "ANU STORES Worldwide",
+          "isOpen": false,
+          "name": "Cables and Pipelines",
           "members": [
             {
               "type": "wms",
-              "name": "Pumped hydro: 150GWh 18h",
-              "id": "c855dca8",
-              "info": [
-                {
-                  "name": "Description",
-                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>    <th>Table 1</th> <th>2 GWh</th> <th>5 GWh</th> <th>15 GWh</th> <th>50 GWh</th> <th>150 GWh</th>  </tr>  <tr>    <th>6 hours</th> <td>✓</td> <td>✓</td> <td>✓</td> <td>✓</td> <td>-</td>  </tr>  <tr>    <th>18 hours</th> <td>-</td> <td>✓</td> <td>✓</td> <td>✓</td> <td>✓</td>  </tr>  <tr>    <th>Millions of people</th> <td>0.1</td> <td>0.25</td> <td>0.75</td> <td>2.5</td> <td>7.5</td>  </tr></table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>"
-                },
-                {
-                  "name": "Disclaimer",
-                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
-                },
-                {
-                  "name": "Access and acknowledgements",
-                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
-                },
-                {
-                  "name": "Source Data",
-                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
-                }
-              ],
-              "infoSectionOrder": [
-                "Disclaimer",
-                "Description",
-                "Access and acknowledgements",
-                "Source Data"
-              ],
-              "url": "https://gis.aremi.data61.io/anu/wms",
-              "opacity": 1,
-              "layers": "150gwh_18h",
-              "featureInfoTemplate": {
-                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
-              },
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "shareKeys": [
-                "Root Group/Renewable Energy/Hydro/Storage/ANU STORES Worldwide/Pumped hydro: 150GWh 18h"
-              ]
+              "name": "Telecommunication Cables (Actual Routes)",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "telecablesactual"
+            },
+            {
+              "type": "wms",
+              "name": "Telecommunication Cables (Actual Routes)",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "cablesschematic"
+            },
+            {
+              "type": "wms",
+              "name": "Power Cables",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "powercables"
+            },
+            {
+              "type": "wms",
+              "name": "Pipelines",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "pipelines"
             }
-          ],
-          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>    <th>Table 1</th> <th>2 GWh</th> <th>5 GWh</th> <th>15 GWh</th> <th>50 GWh</th> <th>150 GWh</th>  </tr>  <tr>    <th>6 hours</th> <td>✓</td> <td>✓</td> <td>✓</td> <td>✓</td> <td>-</td>  </tr>  <tr>    <th>18 hours</th> <td>-</td> <td>✓</td> <td>✓</td> <td>✓</td> <td>✓</td>  </tr>  <tr>    <th>Millions of people</th> <td>0.1</td> <td>0.25</td> <td>0.75</td> <td>2.5</td> <td>7.5</td>  </tr></table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p><h4>DISCLAIMER</h4>None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>",
-          "shareKeys": [
-            "Root Group/Renewable Energy/Hydro/Storage/ANU STORES Worldwide"
           ]
         },
         {
-          "type": "wms",
-          "name": "Australia Upper Reservoir Locations - ANU STORES",
-          "info": [
+          "type": "group",
+          "isOpen": false,
+          "name": "Oil and Gas",
+          "members": [
             {
-              "name": "Disclaimer",
-              "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental and other studies, and it is not known whether any particular site would be suitable.<p>Please refer to the ANU 100% Renewable Energy website for additional information:</p><p><a href='http://re100.eng.anu.edu.au/'>http://re100.eng.anu.edu.au/</a></p><p>There has been no investigation of land tenure apart from exclusion of national parks and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations.</p><p>The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.</p>"
+              "type": "wms",
+              "name": "Active Licences",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "activelicenses"
+            },
+            {
+              "type": "wms",
+              "name": "Boreholes",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "hydrocarbons"
+            },
+            {
+              "type": "wms",
+              "name": "Offshore Installations",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "platforms"
             }
-          ],
-          "initialMessage": {
-            "title": "Australia Upper Reservoir Locations Disclaimer",
-            "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental and other studies, and it is not known whether any particular site would be suitable.<p>Please refer to the ANU 100% Renewable Energy website for additional information:</p><p><a href='http://re100.eng.anu.edu.au/'>http://re100.eng.anu.edu.au/</a></p><p>There has been no investigation of land tenure apart from exclusion of national parks and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations.</p><p>The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.</p>",
-            "confirmation": true,
-            "width": 600,
-            "height": 550,
-            "confirmText": "I Agree"
-          },
-          "url": "https://gis.aremi.data61.io/ANU_STORES/wms",
-          "opacity": 1,
-          "rectangle": {
-            "west": 112,
-            "south": -48,
-            "east": 155,
-            "north": -5
-          },
-          "layers": "all_reservoirs",
-          "featureInfoTemplate": {
-            "name": "{{Index}}{{#Dam_volume}}: {{Stored_Ene}} GWh {{/Dam_volume}}",
-            "template": "<h3>{{#Dam_volume}}Reservoir:{{/Dam_volume}} {{^Dam_volume}}Dam wall:{{/Dam_volume}} {{Index}}</h3><table>{{#Dam_volume}}  <tr>    <th>Stored energy:</th>    <td>{{Stored_Ene}} GWh</td>  </tr>{{/Dam_volume}}  <tr>    <th>Elevation:</th>    <td>{{Elevation_}} metres</td>  </tr>{{#Dam_volume}}  <tr>    <th>Water area:</th>    <td>{{Water_area}} hectares</td>  </tr>  <tr>    <th>Reservoir volume:&nbsp;</th>    <td>{{Reservoir_}} gigalitres</td>  </tr>  <tr>    <th>Dam length:</th>    <td>{{Dam_length}} metres</td>  </tr>  <tr>    <th>Dam area:</th>    <td>{{Dam_area_h}} hectares</td>  </tr>  <tr>    <th>Dam volume:</th>    <td>{{Dam_volume}} gigalitres</td>  </tr>  <tr>    <th>Water to rock ratio:</th>    <td>{{Water_rock}}</td>  </tr>{{/Dam_volume}}</table>"
-          },
-          "tileErrorHandlingOptions": {
-            "ignoreUnknownTileErrors": true
-          },
-          "id": "RqnKAv",
-          "shareKeys": [
-            "Root Group/Renewable Energy/Hydro/Storage/Australia Upper Reservoir Locations - ANU STORES"
           ]
+        },
+
+        {
+          "type": "group",
+          "isOpen": false,
+          "name": "Coastal Infrastructure",
+          "members": [
+            {
+              "type": "wms",
+              "name": "Ports",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "portlocations"
+            },
+            {
+              "type": "wms",
+              "name": "Lighthouses",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "lighthouses"
+            }
+          ]
+        },
+
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "Average Vessel Density",
+          "members": [
+            {
+              "type": "wms",
+              "name": "All Vessel Types",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_allavg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_allavg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Fishing",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_01avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_01avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Service",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_02avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_02avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Dredging or underwater ops",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_03avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_03avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Sailing",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_04avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_04avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Pleasure Craft",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_05avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_05avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "High speed craft",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_06avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_06avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Tug and Towing",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_07avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_07avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Passenger",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_08avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_08avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Cargo",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_09avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_09avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Tanker",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_10avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_10avg",
+                  "imageScaling": 1
+                }
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Military and Law Enforcement",
+              "url": "https://ows.emodnet-humanactivities.eu/wms?",
+              "layers": "vesseldensity_11avg",
+              "legends": [
+                {
+                  "url": "https://ows.emodnet-humanactivities.eu/wms?REQUEST=GetLegendGraphic&VERSION=1.0.0&FORMAT=image/png&WIDTH=53&HEIGHT=19&LAYER=vesseldensity_11avg",
+                  "imageScaling": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "wms-group",
+      "name": "EMODnet Bathymetry Data",
+      "description": "EMODnet Bathymetry provides a service for viewing and downloading the best available harmonised Digital Terrain Model (DTM) for the European sea regions, together with a range of other bathymetric data, products, and services. The DTM is generated and regularly updated by the EMODnet Bathymetry partnership using an increasing number of bathymetric data sets. Services for discovery and requesting access to these data sets are provided and maintained as well.",
+      "url": "https://ows.emodnet-bathymetry.eu/wms?"
+    },
+    {
+      "type": "group",
+      "isOpen": true,
+      "name": "MI Thredds Catalog",
+      "members": [
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "IMI ROMS HYDRO",
+          "members": [
+            {
+              "type": "group",
+              "isOpen": true,
+              "name": "NEATLANTIC_NATIVE_2KM_40L_1H",
+              "members": [
+                {
+                  "type": "group",
+                  "name": "Aggregate",
+                  "isOpen": true,
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "v-momentum component",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "v",
+                      "colorScaleMinimum": -2,
+                      "colorScaleMaximum": 2
+                    },
+                    {
+                      "type": "wms",
+                      "name": "bathymetry at RHO-points",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "h",
+                      "colorScaleMinimum": 0,
+                      "colorScaleMaximum": 5000
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coriolis parameter at RHO-points",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "f",
+                      "colorScaleMinimum": 0.000001,
+                      "colorScaleMaximum": 0.0002
+                    },
+                    {
+                      "type": "wms",
+                      "name": "curvilinear coordinate metric in XI",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "pm",
+                      "colorScaleMinimum": 0.00001,
+                      "colorScaleMaximum": 0.001
+                    },
+                    {
+                      "type": "wms",
+                      "name": "time invariant, bottom roughness length",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "ZoBot",
+                      "colorScaleMinimum": 0,
+                      "colorScaleMaximum": 0.05
+                    },
+                    {
+                      "type": "wms",
+                      "name": "free-surface",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "zeta",
+                      "colorScaleMinimum": -5,
+                      "colorScaleMaximum": 5
+                    },
+                    {
+                      "type": "wms",
+                      "name": "surface net heat flux",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "shflux",
+                      "colorScaleMinimum": -500,
+                      "colorScaleMaximum": 500
+                    },
+                    {
+                      "type": "wms",
+                      "name": "surface net salt flux, (E-P)*SALT",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "ssflux",
+                      "colorScaleMinimum": -0.0001,
+                      "colorScaleMaximum": 0.00005
+                    },
+                    {
+                      "type": "wms",
+                      "name": "net latent heat flux",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "latent",
+                      "colorScaleMinimum": -300,
+                      "colorScaleMaximum": 50
+                    },
+                    {
+                      "type": "wms",
+                      "name": "net sensible heat flux",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "sensible",
+                      "colorScaleMinimum": -200,
+                      "colorScaleMaximum": 50
+                    },
+                    {
+                      "type": "wms",
+                      "name": "net longwave radiation flux",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "lwrad",
+                      "colorScaleMinimum": -200,
+                      "colorScaleMaximum": 0
+                    },
+                    {
+                      "type": "wms",
+                      "name": "evaporation rate",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "evaporation",
+                      "colorScaleMinimum": -0.0001,
+                      "colorScaleMaximum": 0.0005
+                    },
+                    {
+                      "type": "wms",
+                      "name": "rain fall rate",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "rain",
+                      "colorScaleMinimum": 0,
+                      "colorScaleMaximum": 0.005
+                    },
+                    {
+                      "type": "wms",
+                      "name": "solar shortwave radiation flux",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "swrad",
+                      "colorScaleMinimum": 0,
+                      "colorScaleMaximum": 500
+                    },
+                    {
+                      "type": "wms",
+                      "name": "vertically integrated v-momentum component",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "vbar",
+                      "colorScaleMinimum": -2,
+                      "colorScaleMaximum": 2
+                    },
+                    {
+                      "type": "wms",
+                      "name": "surface v-momentum stress",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "svstr",
+                      "colorScaleMinimum": -1,
+                      "colorScaleMaximum": 1
+                    },
+                    {
+                      "type": "wms",
+                      "name": "bottom v-momentum stress",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "bvstr",
+                      "colorScaleMinimum": -10,
+                      "colorScaleMaximum": 10
+                    },
+                    {
+                      "type": "wms",
+                      "name": "potential temperature",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "temp",
+                      "colorScaleMinimum": 0,
+                      "colorScaleMaximum": 25
+                    },
+                    {
+                      "type": "wms",
+                      "name": "salinity",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "salt",
+                      "colorScaleMinimum": 20,
+                      "colorScaleMaximum": 40
+                    },
+                    {
+                      "type": "wms",
+                      "name": "u-momentum component",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "u",
+                      "colorScaleMinimum": -2,
+                      "colorScaleMaximum": 2
+                    },
+                    {
+                      "type": "wms",
+                      "name": "vertically integrated u-momentum component",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "ubar",
+                      "colorScaleMinimum": -2,
+                      "colorScaleMaximum": 2
+                    },
+                    {
+                      "type": "wms",
+                      "name": "surface u-momentum stress",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "sustr",
+                      "colorScaleMinimum": -1,
+                      "colorScaleMaximum": 1
+                    },
+                    {
+                      "type": "wms",
+                      "name": "bottom u-momentum stress",
+                      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
+                      "layers": "bustr",
+                      "colorScaleMinimum": -5,
+                      "colorScaleMaximum": 10
+                    }
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Combined",
+                  "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "BANTRY_BAY_NATIVE_250M_20L_1H",
+              "members": [
+                {
+                  "type": "wms-group",
+                  "name": "Aggregate",
+                  "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Combined",
+                  "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "CONNEMARA_250M_20L_1H",
+              "members": [
+                {
+                  "type": "thredds-group",
+                  "name": "Forecast",
+                  "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/FORECAST/catalog.xml"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "isOpen": false,
+              "name": "GALWAY_BAY_NATIVE_70M_8L_1H",
+              "members": [
+                {
+                  "type": "wms-group",
+                  "name": "Aggregate",
+                  "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Combined",
+                  "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "IMI_CMEMS",
+          "members": [
+            {
+              "type": "thredds-group",
+              "name": "Forecast",
+              "url": "http://thredds.marine.ie/thredds/catalog/IMI_CMEMS/FORECAST/catalog.xml"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "MyCoast",
+          "members": [
+            {
+              "type": "wms-group",
+              "name": "ROMS",
+              "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/ROMS/NEATLANTIC/MYCOAST_V1_IMI_ROMS_NEATLANTIC_01hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "wms-group",
+              "name": "SWAN EATL",
+              "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/EATL/MYCOAST_V1_IMI_SWAN_EATL_03hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "wms-group",
+              "name": "SWAN GALICIA",
+              "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/GALICIA/MyCOAST_V1_MeteoGalicia_SWAN_galicia_01hr_aggregate_PR.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+            }
+          ]
+        },
+
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "COMPASS_NEATL",
+          "members": [
+            {
+              "type": "wms-group",
+              "name": "Aggregate",
+              "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "wms-group",
+              "name": "Aggregate BiMonthly",
+              "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/COMPASS_NEATL_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "thredds-group",
+              "name": "Habitat Layers",
+              "url": "http://thredds.marine.ie/thredds/catalog/COMPASS_NEATL/HABITAT_LAYERS/catalog.xml"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "COMPASS_WeStCOMS",
+          "members": [
+            {
+              "type": "wms-group",
+              "name": "Aggregate",
+              "url": "http://thredds.marine.ie/thredds/wms/westcoms/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "wms-group",
+              "name": "Aggregate BiMonthly",
+              "url": "http://thredds.marine.ie/thredds/wms/westcoms/COMPASS_WeStCOMS_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "Adrift wind",
+          "members": [
+            {
+              "type": "wms",
+              "name": "y_wind",
+              "url": "http://thredds.marine.ie/thredds/wms/adrift_wind/adrift_wind_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "Vwind",
+              "colorScaleMinimum": -15,
+              "colorScaleMaximum": 25
+            },
+            {
+              "type": "wms",
+              "name": "x_wind",
+              "url": "http://thredds.marine.ie/thredds/wms/adrift_wind/adrift_wind_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "Uwind",
+              "colorScaleMinimum": -15,
+              "colorScaleMaximum": 30
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "isOpen": true,
+          "name": "connemara_native",
+          "members": [
+            {
+              "type": "wms-group",
+              "name": "Aggregate",
+              "url": "http://thredds.marine.ie/thredds/wms/connemara_native/connemara_native_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities"
+            },
+            {
+              "type": "wms-group",
+              "name": "Combined",
+              "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "isOpen": true,
+      "name": "3D Visualisations",
+      "description": "Cesium ION 3D assets",
+      "members": [
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 96188,
+          "name": "Cesium OSM Buildings",
+          "id": "some-unique-id"
+        },
+        {
+          "type": "cesium-terrain",
+          "ionAssetId": 2426648,
+          "name": "Cesium World Bathymetry"
+        },
+        {
+          "type": "3d-tiles",
+          "ionAssetId": 2275207,
+          "name": "Google Photorealistic 3D Tiles"
         }
       ]
     }
   ],
-  "viewerMode": "3dSmooth",
+  "viewerMode": "2d",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-openstreetmap",
-    "previewBaseMapId": "basemap-natural-earth-II"
+    "enabledBaseMaps": [
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-voyager",
+      "basemap-ocean"
+    ],
+
+    "defaultBaseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-voyager",
+
+    "items": [
+      {
+        "item": {
+          "id": "basemap-bing-aerial",
+          "type": "esri-mapServer",
+          "name": "Bing Maps Aerial"
+        },
+        "image": "images/basemaps/bing-aerial.png"
+      },
+      {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "type": "esri-mapServer",
+          "name": "Bing Maps Aerial With Labels"
+        },
+        "image": "images/basemaps/bing-aerial-labels.png"
+      },
+      {
+        "item": {
+          "id": "basemap-australian-topography",
+          "type": "esri-mapServer",
+          "name": "National Base Map",
+          "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
+          "opacity": 1
+        },
+        "image": "images/basemaps/australian-topo.png"
+      },
+      {
+        "item": {
+          "id": "basemap-positron",
+          "name": "Positron (Light)",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/light_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": ["a", "b", "c", "d"],
+          "opacity": 1
+        },
+        "image": "images/basemaps/positron.png"
+      },
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "name": "Dark Matter",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/dark_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": ["a", "b", "c", "d"],
+          "opacity": 1
+        },
+        "image": "images/basemaps/dark-matter.png"
+      },
+      {
+        "item": {
+          "id": "basemap-voyager",
+          "type": "open-street-map",
+          "name": "Voyager",
+          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+          "opacity": 1,
+          "subdomains": [
+            "cartodb-basemaps-a",
+            "cartodb-basemaps-b",
+            "cartodb-basemaps-c",
+            "cartodb-basemaps-d"
+          ]
+        },
+        "image": "images/basemaps/voyager.png"
+      },
+      {
+        "item": {
+          "id": "basemap-ocean",
+          "type": "esri-mapServer",
+          "name": "World Ocean Base",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer",
+          "opacity": 1
+        },
+        "image": "images/basemaps/ocean.png"
+      }
+    ]
   }
 }

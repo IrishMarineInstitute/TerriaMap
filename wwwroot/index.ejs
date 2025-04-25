@@ -28,7 +28,26 @@
     <meta name="theme-color" content="#282D32">
 
     <title>Terria Map</title>
-
+ <style>
+    /* Remove hover effects and ensure full visibility of catalogue items */
+    .tjs-tabs__btn--tab,
+    .tjs-tab-panel__body,
+    .tjs-panel__item,
+    .tjs-panel__group {
+      opacity: 1 !important;
+      color: black !important;
+      background: white !important;
+    }
+	
+	.tjs-timeline__timeline,
+	.tjs-timeline__controlsRow,
+	.tjs-cesium-timeline__cesiumTimeline,
+	.cesium-timeline-main,
+	.cesium-timeline-bar,
+	.tjs-timeline__text-row	{
+	 background: black !important;
+	 }
+  </style>
     <!-- Leaflet -->
     <script>L_PREFER_CANVAS = true;</script>
 </head>
