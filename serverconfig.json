@@ -21,6 +21,10 @@
     "gov",
     "gov.uk",
     "gov.nz",
-    "services.aremi.data61.io"
+    "services.aremi.data61.io",
+	"basemap.marine.ie",
+	"data.gov.ie",
+	"thredds.marine.ie",
+	"services-eu1.arcgis.com"
   ]
 }
