@@ -242,11 +242,542 @@
 					  "name": "Designated Areas",
 					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/NPWSDesignatedAreas/FeatureServer"
 					},	
+							 	{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Article 17 Marine Species Grids",
+			  "description": "Current Distribution and Current Range Mapping representing the known or best estimate of national distributions of EU Annex I habitats and EU Annex II and IV species.<p> Current Distribution grids are symbolised based on the overall assessed Conservation Status of each habitat and species nationally, using the red green amber traffic light system as follows; Favourable: green, Bad: red, Inadequate: orange or Unknown: blue.<p>The Range is drawn as an envelope around the distribution using a standardised procedure. Horizontal or vertical gaps in the habitat distribution of 3 or more grid squares or oblique gaps of 2 or more squares are deemed enough to justify a break in the Range. Where ecological conditions for the development of the habitat are deemed unsuitable, gaps of just 1 grid square may also be permitted.<p>These distributions have been compiled from NPWS habitat monitoring surveys and other available data sources for Ireland's third Article 17 report on national conservation status of protected habitats and species in Ireland submitted in April 2019. The report is for the period 2013 to 2018. Article 17 reports cover the whole territory of each Member State.<p>The data were collated from a number of sources, primarily from scientific monitoring programmes commissioned by NPWS and DCCAE (including IFI). Additional data were sourced from, inter alia, local authority biodiversity data sets, the Environmental Protection Agency and Department of Agriculture, Food and the Marine. The National Biodiversity Data Centre provided supplementary distribution data for some species. Scientific publications were also reviewed to capture relevant academic data.<p>The 2019 Article 17 data and metadata are available for each habitat and species from the NPWS website: https://www.npws.ie/maps-and-data/habitat-and-species-data/article-17/2019/",
+			  "members": [
+			  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Atlantic White-sided Dolphin",
+			  "description": "Group containing range and distribution datasets for Atlantic White-sided Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Atlantic White-sided Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27White-sided+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "red",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Atlantic White-sided Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27White-sided+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "red",
+						  "fill-opacity": 0,
+						  "stroke": "red"
+					  }
+					},
 			  ]
 			},
-			
+						  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Bottlenose Dolphin",
+			  "description": "Group containing range and distribution datasets for Bottlenose Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Bottlenose Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Common+bottlenose+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "orange",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Bottlenose Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Common+bottlenose+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "red",
+						  "fill-opacity": 0,
+						  "stroke": "orange"
+					  }
+					},
+			  ]
+			},
+									  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Common Dolphin",
+			  "description": "Group containing range and distribution datasets for Common Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Common Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Common+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "yellow",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Common Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Common+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "red",
+						  "fill-opacity": 0,
+						  "stroke": "yellow"
+					  }
+					},
+			  ]
+			},
+												  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Risso's Dolphin",
+			  "description": "Group containing range and distribution datasets for Risso's Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Risso's Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Risso%E2%80%99s+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "lime",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Risso's Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Risso%E2%80%99s+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "lime",
+						  "fill-opacity": 0,
+						  "stroke": "lime"
+					  }
+					},
+			  ]
+			},
+															  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Striped Dolphin",
+			  "description": "Group containing range and distribution datasets for Striped Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Striped Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Striped+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "green",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Striped Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Striped+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "green",
+						  "fill-opacity": 0,
+						  "stroke": "green"
+					  }
+					},
+			  ]
+			},
+																		  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "White-beaked Dolphin",
+			  "description": "Group containing range and distribution datasets for White-beaked Dolphin",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: White-beaked Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27White-beaked+dolphin%27&f=pgeojson",
+					  "style": {
+						  "fill": "cyan",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: White-beaked Dolphin",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27White-beaked+dolphin%27&f=pgeojson",
+					  	"style": {
+						  "fill": "green",
+						  "fill-opacity": 0,
+						  "stroke": "cyan"
+					  }
+					},
+			  ]
+			},
+																					  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Harbour Porpoise",
+			  "description": "Group containing range and distribution datasets for Harbour Porpoise",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Harbour Porpoise",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Harbour+Porpoise%27&f=pgeojson",
+					  "style": {
+						  "fill": "Blue",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Harbour Porpoise",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Harbour+Porpoise%27&f=pgeojson",
+					  	"style": {
+						  "fill": "Blue",
+						  "fill-opacity": 0,
+						  "stroke": "Blue"
+					  }
+					},
+			  ]
+			},
+																							  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Grey Seal",
+			  "description": "Group containing range and distribution datasets for Grey Seal",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Grey Seal",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Grey+seal%27&f=pgeojson",
+					  "style": {
+						  "fill": "Purple",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Grey Seal",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Grey+seal%27&f=pgeojson",
+					  	"style": {
+						  "fill": "Purple",
+						  "fill-opacity": 0,
+						  "stroke": "Purple"
+					  }
+					},
+			  ]
+			},
+																										  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Harbour Seal",
+			  "description": "Group containing range and distribution datasets for Harbour Seal",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Grey Seal",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Harbour+seal%27&f=pgeojson",
+					  "style": {
+						  "fill": "Magenta",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Grey Seal",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Harbour+seal%27&f=pgeojson",
+					  	"style": {
+						  "fill": "magenta",
+						  "fill-opacity": 0,
+						  "stroke": "magenta"
+					  }
+					},
+			  ]
+			},
+																													  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Beaked Whale",
+			  "description": "Group containing range and distribution datasets for Beaked Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Beaked Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Cuvier%E2%80%99s+Beaked+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "grey",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Beaked Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Cuvier%E2%80%99s+Beaked+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "grey",
+						  "fill-opacity": 0,
+						  "stroke": "grey"
+					  }
+					},
+			  ]
+			},
+																																  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Blue Whale",
+			  "description": "Group containing range and distribution datasets for Blue Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Blue Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Blue+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "pink",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Beaked Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Blue+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "pink",
+						  "fill-opacity": 0,
+						  "stroke": "pink"
+					  }
+					},
+			  ]
+			},
+																																			  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Fin Whale",
+			  "description": "Group containing range and distribution datasets for Fin Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Fin Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Fin+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#ffd8b1",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Fin Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Fin+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#ffd8b1",
+						  "fill-opacity": 0,
+						  "stroke": "#ffd8b1"
+					  }
+					},
+			  ]
+			},
+																																						  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Humpback Whale",
+			  "description": "Group containing range and distribution datasets for Humpback Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Humpback Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Humpback+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#fffac8",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Humpback Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Humpback+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#fffac8",
+						  "fill-opacity": 0,
+						  "stroke": "#fffac8"
+					  }
+					},
+			  ]
+			},
+																																									  {
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Killer Whale",
+			  "description": "Group containing range and distribution datasets for Killer Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Killer Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Killer+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#aaffc3",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Killer Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Killer+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#aaffc3",
+						  "fill-opacity": 0,
+						  "stroke": "#aaffc3"
+					  }
+					},
+			  ]
+			},
+			{
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Minke Whale",
+			  "description": "Group containing range and distribution datasets for Minke Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Minke Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Minke+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#dcbeff",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Minke Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Minke+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#dcbeff",
+						  "fill-opacity": 0,
+						  "stroke": "#dcbeff"
+					  }
+					},
+			  ]
+			},
+						{
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Pilot Whale",
+			  "description": "Group containing range and distribution datasets for Pilot Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Pilot Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Long-finned+Pilot+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#469990",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Pilot Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Long-finned+Pilot+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#469990",
+						  "fill-opacity": 0,
+						  "stroke": "#469990"
+					  }
+					},
+			  ]
+			},
+									{
+			  "type": "group",
+			  "isOpen": false,
+			  "name": "Sperm Whale",
+			  "description": "Group containing range and distribution datasets for Sperm Whale",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Range: Sperm Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Sperm+whale%27&f=pgeojson",
+					  "style": {
+						  "fill": "#000075",
+						  "fill-opacity": 0.7,
+						  "stroke": "white"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Distribution: Sperm Whale",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Sperm+whale%27&f=pgeojson",
+					  	"style": {
+						  "fill": "#000075",
+						  "fill-opacity": 0,
+						  "stroke": "#000075"
+					  }
+					},
+			  ]
+			},
 			]
     },
+								{
+			  "type": "group",
+			  "isOpen": true,
+			  "name": "Coastal Habitats",
+			  "description": "Group containing coastal article 17 habitat",
+			  "members": [
+						{
+					  "type": "geojson",
+					  "name": "Dunes",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17HabitatDetailsTerrestrial2019/FeatureServer/2/query?where=European_Topic_Centre_Grouping%3D%27Dunes%27&f=pgeojson",
+					  "style": {
+						  "fill": "orange",
+						  "fill-opacity": 0.7,
+						  "stroke": "orange"
+					  }
+					},
+											{
+					  "type": "geojson",
+					  "name": "Estuaries",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17HabitatDetailsTerrestrial2019/FeatureServer/2/query?where=Hab_Name%3D%27Estuaries%27&f=pgeojson",
+					  	"style": {
+						  "fill": "green",
+						  "fill-opacity": 0.7,
+						  "stroke": "green"
+					  }
+					},
+																{
+					  "type": "geojson",
+					  "name": "Vegetated Sea cliffs",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17HabitatDetailsTerrestrial2019/FeatureServer/1/query?where=CodeHabName%3D%271230+Vegetated+Sea+cliffs%27&f=pgeojson",
+					  	"style": {
+						  "fill": "yellow",
+						  "fill-opacity": 0.7,
+						  "stroke": "yellow"
+					  }
+					},
+																					{
+					  "type": "geojson",
+					  "name": "Tidal mudflats",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17HabitatDetailsTerrestrial2019/FeatureServer/2/query?where=Code%3D%271140%27&f=pgeojson",
+					  	"style": {
+						  "fill": "brown",
+						  "fill-opacity": 0.7,
+						  "stroke": "brown"
+					  }
+					},
+			  ]
+			},
+	]
+	},
+	]
+	},
 	{
 			  "type": "group",
 			  "isOpen": true,
@@ -349,7 +880,7 @@
 	"type": "group",
 	  "isOpen": true,
 	  "name": "MarinePlan.ie",
-	  "description": "<a href=\"https://www.gov.ie/en/publication/a4a9a-national-marine-planning-framework/\"><img src=\"https://marineplan.ie/cdn/12/resources/images/widget_3569/1635514013006.png\"></a>",
+	  "description": "<a href=\"https://www.gov.ie/en/publication/a4a9a-national-marine-planning-framework/\"><img src=\"https://marine-ireland.ie/sites/default/files/inline-images/Marineplan.jpg\"></a>",
 	  "members": [
 	  	      	{
       "type": "esri-featureServer-group",
@@ -800,388 +1331,7 @@
 	  "description": "EMODnet Bathymetry provides a service for viewing and downloading the best available harmonised Digital Terrain Model (DTM) for the European sea regions, together with a range of other bathymetric data, products, and services. The DTM is generated and regularly updated by the EMODnet Bathymetry partnership using an increasing number of bathymetric data sets. Services for discovery and requesting access to these data sets are provided and maintained as well.",
       "url": "https://ows.emodnet-bathymetry.eu/wms?"
     },
-	{
-							"type": "group",
-							"isOpen": true,
-							"name": "MI Thredds Catalog",
-							"members": [
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "IMI ROMS HYDRO",
-							"members": [
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "NEATLANTIC_NATIVE_2KM_40L_1H",
-							"members": [
-		 {
-      "type": "group",
-      "name": "Aggregate",
-	  "isOpen": true,
-	  "members": [
-	  	 {
-      "type": "wms",
-      "name": "v-momentum component",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"v",
-	  "colorScaleMinimum":-2,
-	  "colorScaleMaximum":2 
-    },
-		  	 {
-      "type": "wms",
-      "name": "bathymetry at RHO-points",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"h",
-	  "colorScaleMinimum":0,
-	  "colorScaleMaximum":5000
-			 },
-			 	  	 {
-      "type": "wms",
-      "name": "Coriolis parameter at RHO-points",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"f",
-	  "colorScaleMinimum":0.000001,
-	  "colorScaleMaximum":0.0002
-    },
-				 	  	 {
-      "type": "wms",
-      "name": "curvilinear coordinate metric in XI",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"pm",
-	  "colorScaleMinimum":0.00001,
-	  "colorScaleMaximum":0.001
-    },
-					 	  	 {
-      "type": "wms",
-      "name": "time invariant, bottom roughness length",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"ZoBot",
-	  "colorScaleMinimum":0,
-	  "colorScaleMaximum":0.05
-    },
-						 	  	 {
-      "type": "wms",
-      "name": "free-surface",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"zeta",
-	  "colorScaleMinimum":-5,
-	  "colorScaleMaximum":5
-    },
-							 	  	 {
-      "type": "wms",
-      "name": "surface net heat flux",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"shflux",
-	  "colorScaleMinimum":-500,
-	  "colorScaleMaximum":500
-    },
-								 	  	 {
-      "type": "wms",
-      "name": "surface net salt flux, (E-P)*SALT",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"ssflux",
-	  "colorScaleMinimum":-0.0001,
-	  "colorScaleMaximum":0.00005
-    },
-									 	  	 {
-      "type": "wms",
-      "name": "net latent heat flux",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"latent",
-	  "colorScaleMinimum":-300,
-	  "colorScaleMaximum":50
-    },
-										 	  	 {
-      "type": "wms",
-      "name": "net sensible heat flux",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"sensible",
-	  "colorScaleMinimum":-200,
-	  "colorScaleMaximum":50
-    },
-											 	  	 {
-      "type": "wms",
-      "name": "net longwave radiation flux",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"lwrad",
-	  "colorScaleMinimum":-200,
-	  "colorScaleMaximum":0
-    },
-												 	  	 {
-      "type": "wms",
-      "name": "evaporation rate",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"evaporation",
-	  "colorScaleMinimum":-0.0001,
-	  "colorScaleMaximum":0.0005
-    },
-													 	  	 {
-      "type": "wms",
-      "name": "rain fall rate",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"rain",
-	  "colorScaleMinimum":0,
-	  "colorScaleMaximum":0.005
-    },
-														 	  	 {
-      "type": "wms",
-      "name": "solar shortwave radiation flux",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"swrad",
-	  "colorScaleMinimum":0,
-	  "colorScaleMaximum":500
-    },
-															 	  	 {
-      "type": "wms",
-      "name": "vertically integrated v-momentum component",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"vbar",
-	  "colorScaleMinimum":-2,
-	  "colorScaleMaximum":2
-    },
-																 	  	 {
-      "type": "wms",
-      "name": "surface v-momentum stress",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"svstr",
-	  "colorScaleMinimum":-1,
-	  "colorScaleMaximum":1
-    },
-																	 	  	 {
-      "type": "wms",
-      "name": "bottom v-momentum stress",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"bvstr",
-	  "colorScaleMinimum":-10,
-	  "colorScaleMaximum":10
-    },
-																		 	  	 {
-      "type": "wms",
-      "name": "potential temperature",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"temp",
-	  "colorScaleMinimum":0,
-	  "colorScaleMaximum":25
-    },
-																			 	  	 {
-      "type": "wms",
-      "name": "salinity",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"salt",
-	  "colorScaleMinimum":20,
-	  "colorScaleMaximum":40
-    },
-																				 	  	 {
-      "type": "wms",
-      "name": "u-momentum component",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"u",
-	  "colorScaleMinimum":-2,
-	  "colorScaleMaximum":2
-    },
-																					 	  	 {
-      "type": "wms",
-      "name": "vertically integrated u-momentum component",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"ubar",
-	  "colorScaleMinimum":-2,
-	  "colorScaleMaximum":2
-    },
-																						 	  	 {
-      "type": "wms",
-      "name": "surface u-momentum stress",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"sustr",
-	  "colorScaleMinimum":-1,
-	  "colorScaleMaximum":1
-    },
-																							 	  	 {
-      "type": "wms",
-      "name": "bottom u-momentum stress",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"bustr",
-	  "colorScaleMinimum":-5,
-	  "colorScaleMaximum":10
-    }
-	  ]
-		 },
-			 {
-      "type": "wms-group",
-      "name": "Combined",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/NEATLANTIC_NATIVE_2KM_40L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-	]
-							},
-							{
-							"type": "group",
-							"isOpen": false,
-							"name": "BANTRY_BAY_NATIVE_250M_20L_1H",
-							"members": [
-													    {
-      "type": "wms-group",
-      "name": "Aggregate",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-				 {
-      "type": "wms-group",
-      "name": "Combined",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/BANTRY_BAY_NATIVE_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-]
-							},
-							{
-							"type": "group",
-							"isOpen": false,
-							"name": "CONNEMARA_250M_20L_1H",
-							"members": [
-							 {
-      "type": "thredds-group",
-      "name": "Forecast",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/FORECAST/catalog.xml"
-    }
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": false,
-							"name": "GALWAY_BAY_NATIVE_70M_8L_1H",
-							"members": [
-								{
-      "type": "wms-group",
-      "name": "Aggregate",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-									{
-      "type": "wms-group",
-      "name": "Combined",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/GALWAY_BAY_NATIVE_70M_8L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-							 ]
-							},
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "IMI_CMEMS",
-							"members": [
-							{
-      "type": "thredds-group",
-      "name": "Forecast",
-      "url": "http://thredds.marine.ie/thredds/catalog/IMI_CMEMS/FORECAST/catalog.xml"
-    }
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "MyCoast",
-							"members": [
-														{
-      "type": "wms-group",
-      "name": "ROMS",
-      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/ROMS/NEATLANTIC/MYCOAST_V1_IMI_ROMS_NEATLANTIC_01hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-															{
-      "type": "wms-group",
-      "name": "SWAN EATL",
-      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/EATL/MYCOAST_V1_IMI_SWAN_EATL_03hr_aggregate_PR.ncml?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-																{
-      "type": "wms-group",
-      "name": "SWAN GALICIA",
-      "url": "http://thredds.marine.ie/thredds/wms/MYCOAST/SWAN/GALICIA/MyCOAST_V1_MeteoGalicia_SWAN_galicia_01hr_aggregate_PR.nc?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-	
-							]
-							},
-							
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "COMPASS_NEATL",
-							"members": [
-							{
-      "type": "wms-group",
-      "name": "Aggregate",
-      "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-								{
-      "type": "wms-group",
-      "name": "Aggregate BiMonthly",
-      "url": "http://thredds.marine.ie/thredds/wms/COMPASS_NEATL/COMPASS_NEATL_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-	{
-      "type": "thredds-group",
-      "name": "Habitat Layers",
-      "url": "http://thredds.marine.ie/thredds/catalog/COMPASS_NEATL/HABITAT_LAYERS/catalog.xml"
-    }
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "COMPASS_WeStCOMS",
-							"members": [
-								{
-      "type": "wms-group",
-      "name": "Aggregate",
-      "url": "http://thredds.marine.ie/thredds/wms/westcoms/AGGREGATE?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-									{
-      "type": "wms-group",
-      "name": "Aggregate BiMonthly",
-      "url": "http://thredds.marine.ie/thredds/wms/westcoms/COMPASS_WeStCOMS_aggregate_bimonthly.nc?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "Adrift wind",
-							"members": [
-																	{
-      "type": "wms",
-      "name": "y_wind",
-      "url": "http://thredds.marine.ie/thredds/wms/adrift_wind/adrift_wind_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"Vwind",
-	  "colorScaleMinimum":-15,
-	  "colorScaleMaximum":25  
-    },
-																		{
-      "type": "wms",
-      "name": "x_wind",
-      "url": "http://thredds.marine.ie/thredds/wms/adrift_wind/adrift_wind_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities",
-	  "layers":"Uwind",
-	  "colorScaleMinimum":-15,
-	  "colorScaleMaximum":30  
-    }
-		
-		
-							]
-							},
-							{
-							"type": "group",
-							"isOpen": true,
-							"name": "connemara_native",
-							"members": [
-															{
-      "type": "wms-group",
-      "name": "Aggregate",
-      "url": "http://thredds.marine.ie/thredds/wms/connemara_native/connemara_native_aggregate.nc?service=WMS&version=1.3.0&request=GetCapabilities"
-    },
-																{
-      "type": "wms-group",
-      "name": "Combined",
-      "url": "http://thredds.marine.ie/thredds/wms/IMI_ROMS_HYDRO/CONNEMARA_250M_20L_1H/COMBINED_AGGREGATION?service=WMS&version=1.3.0&request=GetCapabilities"
-    }
-							]
-							},
-															
 
-	]
-	},
 	{
 	 "type": "group",
 	  "isOpen": true,
