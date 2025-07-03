@@ -48,7 +48,7 @@
 					  "type": "esri-group",
 					  "isOpen": false,
 					  "name": "Fourth Edition 2024",
-					  "url": "http://spatial.marine.ie/arcgis/rest/services/HANS/atlas_review_layers/MapServer"
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Biological/Atlas_of_Commericial_Fisheries/MapServer"
 					  
 					},
 			  ]
@@ -90,7 +90,7 @@
 					  "type": "esri-group",
 					  "isOpen": false,
 					  "name": "Continental Shelf Designation Orders",
-					  "url": "https://spatial.marine.ie/arcgis/rest/services/DFA/Continental_shelf/MapServer",
+					  "url": "https://basemap.marine.ie/arcgis/rest/services/Administrative/Continental_shelf/MapServer",
 					  "displayGroup": true
 					  
 					},
