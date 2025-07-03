@@ -261,8 +261,21 @@
 					  "style": {
 						  "fill": "red",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "red"
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Atlantic White-sided Dolphin",
+          "color": "red",
+		  "outlineColor": "red",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -272,7 +285,19 @@
 						  "fill": "red",
 						  "fill-opacity": 0,
 						  "stroke": "red"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Atlantic White-sided Dolphin",
+		  "outlineColor": "red",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -289,8 +314,21 @@
 					  "style": {
 						  "fill": "orange",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "orange"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Bottlenose Dolphin",
+          "color": "orange",
+		  "outlineColor": "orange",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -300,7 +338,19 @@
 						  "fill": "red",
 						  "fill-opacity": 0,
 						  "stroke": "orange"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Bottlenose Dolphin",
+		  "outlineColor": "orange",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -317,8 +367,21 @@
 					  "style": {
 						  "fill": "yellow",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "yellow"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Common Dolphin",
+          "color": "yellow",
+		  "outlineColor": "yellow",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -328,7 +391,19 @@
 						  "fill": "red",
 						  "fill-opacity": 0,
 						  "stroke": "yellow"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Common Dolphin",
+		  "outlineColor": "yellow",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -345,8 +420,21 @@
 					  "style": {
 						  "fill": "lime",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "lime"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Risso's Dolphin",
+          "color": "lime",
+		  "outlineColor": "lime",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -356,7 +444,19 @@
 						  "fill": "lime",
 						  "fill-opacity": 0,
 						  "stroke": "lime"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Risso's Dolphin",
+		  "outlineColor": "lime",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -373,8 +473,21 @@
 					  "style": {
 						  "fill": "green",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "green"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Striped Dolphin",
+          "color": "Green",
+		  "outlineColor": "Green",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -384,7 +497,19 @@
 						  "fill": "green",
 						  "fill-opacity": 0,
 						  "stroke": "green"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Striped Dolphin",
+		  "outlineColor": "green",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -401,8 +526,21 @@
 					  "style": {
 						  "fill": "cyan",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "cyan"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: White-beaked Dolphin",
+          "color": "cyan",
+		  "outlineColor": "cyan",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -412,7 +550,19 @@
 						  "fill": "green",
 						  "fill-opacity": 0,
 						  "stroke": "cyan"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: White-beaked Dolphin",
+		  "outlineColor": "cyan",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -429,8 +579,21 @@
 					  "style": {
 						  "fill": "Blue",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "blue"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Harbour Porpoise",
+          "color": "blue",
+		  "outlineColor": "blue",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -440,7 +603,19 @@
 						  "fill": "Blue",
 						  "fill-opacity": 0,
 						  "stroke": "Blue"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Harbour Porpoise",
+		  "outlineColor": "blue",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -457,8 +632,21 @@
 					  "style": {
 						  "fill": "Purple",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "Purple"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Grey Seal",
+          "color": "Purple",
+		  "outlineColor": "Purple",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -468,7 +656,19 @@
 						  "fill": "Purple",
 						  "fill-opacity": 0,
 						  "stroke": "Purple"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Grey Seal",
+		  "outlineColor": "Purple",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -480,23 +680,48 @@
 			  "members": [
 						{
 					  "type": "geojson",
-					  "name": "Range: Grey Seal",
+					  "name": "Range: Harbour Seal",
 					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/1/query?where=English%3D%27Harbour+seal%27&f=pgeojson",
 					  "style": {
 						  "fill": "Magenta",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "Magenta"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Harbour Seal",
+          "color": "Magenta",
+		  "outlineColor": "Magenta",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
-					  "name": "Distribution: Grey Seal",
+					  "name": "Distribution: Harbour Seal",
 					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Harbour+seal%27&f=pgeojson",
 					  	"style": {
 						  "fill": "magenta",
 						  "fill-opacity": 0,
 						  "stroke": "magenta"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Harbour Seal",
+		  "outlineColor": "Magenta",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -513,8 +738,21 @@
 					  "style": {
 						  "fill": "grey",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "grey"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Beaked Whale",
+          "color": "grey",
+		  "outlineColor": "grey",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -524,7 +762,19 @@
 						  "fill": "grey",
 						  "fill-opacity": 0,
 						  "stroke": "grey"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Beaked Whale",
+		  "outlineColor": "grey",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -541,18 +791,43 @@
 					  "style": {
 						  "fill": "pink",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "pink"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Blue Whale",
+          "color": "pink",
+		  "outlineColor": "pink",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
-					  "name": "Distribution: Beaked Whale",
+					  "name": "Distribution: Blue Whale",
 					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Blue+whale%27&f=pgeojson",
 					  	"style": {
 						  "fill": "pink",
 						  "fill-opacity": 0,
 						  "stroke": "pink"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Blue Whale",
+		  "outlineColor": "pink",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -569,8 +844,21 @@
 					  "style": {
 						  "fill": "#ffd8b1",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#ffd8b1"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Fin Whale",
+          "color": "#ffd8b1",
+		  "outlineColor": "#ffd8b1",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -580,7 +868,19 @@
 						  "fill": "#ffd8b1",
 						  "fill-opacity": 0,
 						  "stroke": "#ffd8b1"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Fin Whale",
+		  "outlineColor": "#ffd8b1",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -597,8 +897,21 @@
 					  "style": {
 						  "fill": "#fffac8",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#fffac8"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Humpback Whale",
+          "color": "#fffac8",
+		  "outlineColor": "#fffac8",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -608,7 +921,19 @@
 						  "fill": "#fffac8",
 						  "fill-opacity": 0,
 						  "stroke": "#fffac8"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Humpback Whale",
+		  "outlineColor": "#fffac8",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -625,18 +950,43 @@
 					  "style": {
 						  "fill": "#aaffc3",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#aaffc3"
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Killer Whale",
+          "color": "#aaffc3",
+		  "outlineColor": "#aaffc3",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
 					  "name": "Distribution: Killer Whale",
-					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Killer+whale%27&f=pgeojson",
+					  "url": "https://services-eu1.arcgis.com/Jhij7i46ouO8Cc0N/ArcGIS/rest/services/Article17SpeciesGridsMarine2019WGS84/FeatureServer/0/query?where=English%3D%27Killer+Whale%27&f=pgeojson",
 					  	"style": {
 						  "fill": "#aaffc3",
 						  "fill-opacity": 0,
 						  "stroke": "#aaffc3"
-					  }
+					  },
+					  					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Killer Whale",
+		  "outlineColor": "#aaffc3",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -653,8 +1003,21 @@
 					  "style": {
 						  "fill": "#dcbeff",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#dcbeff"
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Minke Whale",
+          "color": "#dcbeff",
+		  "outlineColor": "#dcbeff",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -664,7 +1027,20 @@
 						  "fill": "#dcbeff",
 						  "fill-opacity": 0,
 						  "stroke": "#dcbeff"
-					  }
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Minke Whale",
+          "color": "#dcbeff",
+		  "outlineColor": "#dcbeff",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -681,8 +1057,21 @@
 					  "style": {
 						  "fill": "#469990",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#469990"
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Pilot Whale",
+          "color": "#469990",
+		  "outlineColor": "#469990",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -692,7 +1081,19 @@
 						  "fill": "#469990",
 						  "fill-opacity": 0,
 						  "stroke": "#469990"
-					  }
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Pilot Whale",
+		  "outlineColor": "#469990",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
@@ -709,8 +1110,21 @@
 					  "style": {
 						  "fill": "#000075",
 						  "fill-opacity": 0.7,
-						  "stroke": "white"
-					  }
+						  "stroke": "#000075"
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Range: Sperm Whale",
+          "color": "#000075",
+		  "outlineColor": "#000075",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -720,16 +1134,28 @@
 						  "fill": "#000075",
 						  "fill-opacity": 0,
 						  "stroke": "#000075"
-					  }
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Marine Species Grids",
+      "items": [
+        {
+          "title": "Distribution: Sperm Whale",
+		  "outlineColor": "#000075",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
-			  ]
+		  ]
 			},
 			]
     },
 								{
 			  "type": "group",
 			  "isOpen": true,
-			  "name": "Coastal Habitats",
+			  "name": "Article 17 Coastal Habitats",
 			  "description": "Group containing coastal article 17 habitat",
 			  "members": [
 						{
@@ -740,7 +1166,20 @@
 						  "fill": "orange",
 						  "fill-opacity": 0.7,
 						  "stroke": "orange"
-					  }
+					  },
+					    "legends": [
+    {
+      "title": "Article 17 Coastal Habitat",
+      "items": [
+        {
+          "title": "Dunes",
+          "color": "orange",
+		  "outlineColor": "orange",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 											{
 					  "type": "geojson",
@@ -750,7 +1189,20 @@
 						  "fill": "green",
 						  "fill-opacity": 0.7,
 						  "stroke": "green"
-					  }
+					  },
+					  "legends": [
+    {
+      "title": "Article 17 Coastal Habitat",
+      "items": [
+        {
+          "title": "Estuaries",
+          "color": "green",
+		  "outlineColor": "green",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 																{
 					  "type": "geojson",
@@ -760,7 +1212,20 @@
 						  "fill": "yellow",
 						  "fill-opacity": 0.7,
 						  "stroke": "yellow"
-					  }
+					  },
+					  "legends": [
+    {
+      "title": "Article 17 Coastal Habitat",
+      "items": [
+        {
+          "title": "Vegetated Sea cliffs",
+          "color": "yellow",
+		  "outlineColor": "yellow",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 																					{
 					  "type": "geojson",
@@ -770,7 +1235,20 @@
 						  "fill": "brown",
 						  "fill-opacity": 0.7,
 						  "stroke": "brown"
-					  }
+					  },
+					  "legends": [
+    {
+      "title": "Article 17 Coastal Habitat",
+      "items": [
+        {
+          "title": "Tidal mudflats",
+          "color": "brown",
+		  "outlineColor": "brown",
+		  "outlineWidth": 2
+        }
+      ]
+    }
+  ]
 					},
 			  ]
 			},
