@@ -16,7 +16,7 @@
     /* Text that appears at the bottom of the map */
     "disclaimer": {
       "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-      "url": "http://atlas.marine.ie"
+      "url": "http://basemap.marine.ie"
     },
     /*
         // Text that will be added to any pages printed from your site.
@@ -115,11 +115,11 @@
             link: "http://marine.ie"
         },
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Ireland's Marine Atlas",
+    "appName": "Ireland's Marine Basemap",
 "storyEnabled": true,
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "<a target=\"_blank\" href=\"http://atlas.marine.ie\"><img src=\"images/mi_logo.gif\" height=\"60\" title=\"Ireland's Marine Atlas\" width=\"100%\" align =\"center\" /></a>",
+      "<a target=\"_blank\" href=\"http://basemap.marine.ie\"><img src=\"images/mi_logo.gif\" height=\"60\" title=\"Ireland's Marine Basemap\" width=\"100%\" align =\"center\" /></a>",
   
     ],
     // Shown when things go wrong.
