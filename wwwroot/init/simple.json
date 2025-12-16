@@ -222,11 +222,34 @@
 			  
 			]
     },
+											{
+      "type": "group",
+      "name": "Ecological Sensitivity Analysis",
+	  "description": "<p><u><b>Western Irish Sea</b></u><p><p>In December 2022 the Minister for Housing, Local Government and Heritage requested the Marine Protected Areas (MPA) Advisory Group to carry out an ecological sensitivity analysis of the western Irish Sea.<p>This analysis was undertaken to screen for suitable areas for protection off the east and south-east of Ireland in advance of new MPA legislation being enacted, and to inform the decision making process for the siting of offshore renewable energy (ORE) infrastructure, taking account of stakeholder views, conservation requirements and other sectoral activity.<p>The project commenced in mid-December 2022 and it was completed by the end of April 2023. It was led by experts in marine life sciences drawn from the original MPA Advisory Group that provided advice on the expansion of Ireland’s MPA network in 2020. Among its core aims, the group’s work also set out to develop and demonstrate methodologies and the best available evidence base that could be applied to the MPA process under the forthcoming MPA legislation.<p>The final project report and its appendices were published on 19 June 2023 and they are available below. <p>  <a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-main-report/\"><b>Ecological Sensitivity Analysis of Irish Sea – Main Report</b></a><p><a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-appendices/\"><b>Ecological Sensitivity Analysis of Irish Sea - Appendices</b></a><p><a href=\"https://github.com/IrishMarineInstitute/irish_sea_sensitivity_analysis\"><b>Data and data sources, shapefiles and other outputs from the project are now available.</b></a><p><a href=\"https://www.youtube.com/watch?v=o8BX0KskNHY\"><b>A further link to an end of project webinar, held on 19 June 2023, is also available.</b></a><p> <p> <u><b>Celtic Sea</b></u><p> <p>Following on from the ecological sensitivity analysis of the western Irish Sea completed in June 2023, the Minister for Housing, Local Government and Heritage requested the Marine Protected Area Advisory Group to carry out a further ecological sensitivity analysis of the Celtic Sea.<p>As was the case with the Irish Sea project, this analysis was undertaken to examine and identify suitable areas for potential protection off the south of Ireland in advance of new MPA legislation being enacted. It was also designed to help inform the processes around the potential siting of offshore renewable energy (ORE) infrastructure, and include available fishing and shipping data, conservation requirements, plus stakeholder views and input.<p>The project began in November 2023 and it was completed by the end of May 2024. Like its forerunner, it was led by experts in marine life sciences drawn from the original MPA Advisory Group that provided advice on the expansion of Ireland’s MPA network in 2020.<p>The final project report and its appendices were published on 27 June 2024 and they are available via the link below: <p>  <a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-the-celtic-sea/\"><b>Ecological Sensitivity Analysis of Celtic Sea</b></a><p><a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-appendices/\"><b>Ecological Sensitivity Analysis of Irish Sea - Appendices</b></a><p><a href=\"https://github.com/IrishMarineInstitute/celtic_sea_sensitivity_analysis\"><b>Data and data sources, shapefiles and other outputs from the project are now available.</b></a><p>",
+     
+	 "members": [
+	 										{
+      "type": "esri-group",
+      "name": "Ecological Sensitivity Analysis of the Western Irish Sea",
+	  "isOpen": true,
+      "url": "https://basemap.marine.ie/arcgis/rest/services/ESA/ESA_wIrish_Sea/MapServer",
+	  "description": "<p>In December 2022 the Minister for Housing, Local Government and Heritage requested the Marine Protected Areas (MPA) Advisory Group to carry out an ecological sensitivity analysis of the western Irish Sea.<p>This analysis was undertaken to screen for suitable areas for protection off the east and south-east of Ireland in advance of new MPA legislation being enacted, and to inform the decision making process for the siting of offshore renewable energy (ORE) infrastructure, taking account of stakeholder views, conservation requirements and other sectoral activity.<p>The project commenced in mid-December 2022 and it was completed by the end of April 2023. It was led by experts in marine life sciences drawn from the original MPA Advisory Group that provided advice on the expansion of Ireland’s MPA network in 2020. Among its core aims, the group’s work also set out to develop and demonstrate methodologies and the best available evidence base that could be applied to the MPA process under the forthcoming MPA legislation.<p>The final project report and its appendices were published on 19 June 2023 and they are available below. <p>  <a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-main-report/\"><b>Ecological Sensitivity Analysis of Irish Sea – Main Report</b></a><p><a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-appendices/\"><b>Ecological Sensitivity Analysis of Irish Sea - Appendices</b></a><p><a href=\"https://github.com/IrishMarineInstitute/irish_sea_sensitivity_analysis\"><b>Data and data sources, shapefiles and other outputs from the project are now available.</b></a><p><a href=\"https://www.youtube.com/watch?v=o8BX0KskNHY\"><b>A further link to an end of project webinar, held on 19 June 2023, is also available.</b></a><p>  "
+    },
+		 										{
+      "type": "esri-group",
+      "name": "Ecological Sensitivity Analysis of the Celtic Sea",
+	  "isOpen": true,
+      "url": "https://basemap.marine.ie/arcgis/rest/services/ESA/ESA_Celtic_Sea/MapServer",
+	  "description": "<p>Following on from the ecological sensitivity analysis of the western Irish Sea completed in June 2023, the Minister for Housing, Local Government and Heritage requested the Marine Protected Area Advisory Group to carry out a further ecological sensitivity analysis of the Celtic Sea.<p>As was the case with the Irish Sea project, this analysis was undertaken to examine and identify suitable areas for potential protection off the south of Ireland in advance of new MPA legislation being enacted. It was also designed to help inform the processes around the potential siting of offshore renewable energy (ORE) infrastructure, and include available fishing and shipping data, conservation requirements, plus stakeholder views and input.<p>The project began in November 2023 and it was completed by the end of May 2024. Like its forerunner, it was led by experts in marine life sciences drawn from the original MPA Advisory Group that provided advice on the expansion of Ireland’s MPA network in 2020.<p>The final project report and its appendices were published on 27 June 2024 and they are available via the link below: <p>  <a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-the-celtic-sea/\"><b>Ecological Sensitivity Analysis of Celtic Sea</b></a><p><a href=\"https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/ecological-sensitivity-analysis-of-irish-sea-appendices/\"><b>Ecological Sensitivity Analysis of Irish Sea - Appendices</b></a><p><a href=\"https://github.com/IrishMarineInstitute/celtic_sea_sensitivity_analysis\"><b>Data and data sources, shapefiles and other outputs from the project are now available.</b></a><p>"
+    }
+	]
+	
+    },
 	
        
 	{
       "type": "group",
-      "name": "National Parks and Wildlife Service",
+      "name": "NPWS",
 	  "description": "<strong>The role of National Parks and Wildlife Service (NPWS) is:</strong></p><ul><li>To secure the conservation of a representative range of ecosystems to maintain and enhance populations of flora and fauna in Ireland.</li><li>To designate and advise on the protection of habitats and species identified for nature conservation (<a href=\"https://www.npws.ie/protected-sites/nha\">Natural Heritage Areas (NHA)</a>, <a href=\"https://www.npws.ie/protected-sites/sac\">Special Areas of Conservation (SAC)</a> and <a href=\"https://www.npws.ie/protected-sites/spa\">Special Protection Areas (SPA)</a>&nbsp;having particular regard to the need to consult with interested parties.</li> <li>To make the necessary arrangements for the implementation of National and EU legislation and policies for nature conservation and biodiversity including the <a href=\"https://www.npws.ie/legislation/eu-directives\">EU Habitats and Birds Directives</a>, and for the ratification and implementation of the range of international Conventions and Agreements relating to the natural heritage.</li> <li>To manage, maintain and develop State-owned National Parks and Nature Reserves.</li> <li>To promote awareness of natural heritage and biodiversity&nbsp;issues through education, outreach to schools and engaging with stakeholders.</li> </ul><p>The National Parks and Wildlife Service is part of the Heritage Division of the Department of Housing, Local Government &amp; Heritage. The NPWS as an Executive Agency&nbsp;oversees:</p><ul><li>Policy and management of National Parks and Reserves, Nature Services strategy, Finance and Regional operational procedures (including enforcement and health and safety).</li><li>The Wildlife Acts and EU Directive transposition, NATURA Policy, Licensing provisions under the Wildlife Acts, Modernisation of property management, Policy on residential properties in national parks and the Departments Development Applications Unit.</li><li>Peatland Policy, Turf compensation and relocation schemes, Land Designation, Land restoration/cross compliance.</li><li>Scientific Support, Biodiversity policy and international issues, CITES and exotic species, Agri-Environment policy and schemes, Marine and aquaculture issues, Education Service and Data management.</li></ul>",
 
 		"members": [
@@ -1259,7 +1282,7 @@
 	{
 			  "type": "group",
 			  "isOpen": true,
-			  "name": "Environmental Protection Agency",
+			  "name": "EPA",
 			  "description": "The Environmental Protection Agency (EPA) is responsible for protecting and improving the environment as a valuable asset for the people of Ireland. We are committed to protecting people and the environment from the harmful effects of radiation and pollution. We play key roles in environmental regulation, provision of knowledge and advocacy for the environment.<p>The EPA provides environmental data, assessments and evidence to inform decision making and implements effective regulation and environmental compliance systems – while working with others to advocate for a clean, healthy and well protected environment and sustainable environmental behaviour.",
 			  "members": [
 
@@ -1354,185 +1377,7 @@
       "url": "https://gis.ices.dk/gis/rest/services/ICES_reference_layers",
 	  "excludeMembers": ["Nephrops function units draft"]
     }, 
-	{
-	"type": "group",
-	  "isOpen": true,
-	  "name": "MarinePlan.ie",
-	  "description": "<a href=\"https://www.gov.ie/en/publication/a4a9a-national-marine-planning-framework/\"><img src=\"https://marine-ireland.ie/sites/default/files/inline-images/Marineplan.jpg\"></a>",
-	  "members": [
-	  	      	{
-      "type": "esri-featureServer-group",
-      "name": "Aquaculture",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Aquaculture/FeatureServer"
-    },
-	      	{
-      "type": "esri-featureServer-group",
-      "name": "Biodiversity",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/NMPF_5_1_1_Biodiversity/FeatureServer/"
-    },
-	{
-		  "type": "group",
-	  "isOpen": false,
-	  "name": "Climate Change",
-	  "members": [
-		  {
-      "type": "esri-mapServer",
-      "name": "Climate Change",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Contribution_to_Carbon_Sequestration/MapServer/0"
-    }
-	]
-	},
-	      	{
-      "type": "esri-featureServer-group",
-      "name": "Defense and Security",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Defense_and_Security/FeatureServer/"
-    },	
-		      	{
-      "type": "esri-featureServer-group",
-      "name": "Economic",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_6_Economic___Thriving_Maritime_Economy/FeatureServer/"
-    },
-	{
-		  "type": "group",
-	  "isOpen": false,
-	  "name": "Energy - Offshore Renewable",
-	  "members": [
-		  {
-      "type": "esri-featureServer-group",
-      "name": "Infrastructure",
-	  "isOpen": false,
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_15_Energy_Offshore_Renewable/FeatureServer"
-    },
-			  {
-      "type": "esri-featureServer-group",
-      "name": "SC DMAP Proposal Boundary",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/DMPA_Proposal_Boundary/FeatureServer"
-    },
-				  {
-      "type": "esri-featureServer-group",
-      "name": "Met Ocean Data",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Met_Ocean_Data/FeatureServer"
-    },
-	]
-	},
-	      	{
-      "type": "esri-featureServer-group",
-      "name": "Energy - Petroleum",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Energy_Petroleum/FeatureServer"
-    },	
-		      	{
-      "type": "esri-featureServer-group",
-      "name": "Energy - Petroleum",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Energy_Petroleum/FeatureServer"
-    },
-		{
-		  "type": "group",
-	  "isOpen": false,
-	  "name": "Fisheries",
-	  "description": "As an Island nation, fishing has always been economically and socially important to our country. Ireland’s proximity to the rich, productive seas of the North East Atlantic provides an ideal resource on which to continue to develop the seafood sector. Ireland’s coastline, inshore and offshore waters contain some of the largest and most valuable sea fisheries resources in Europe. <p>The NMPF supports management of sea-fisheries resources consistent with relevant environmental sustainability considerations and the development of the sector’s economic and social contribution to rural and coastal communities. The NMPF’s objectives in this sector include continuing to develop a sustainable seafood sector focused on competitiveness and innovation, with growth driven by a skilled workforce delivering value added products in line with market demands; promotion of a sustainable, profitable and self-reliant industry; sustaining primary food producers contributing to food security at a national and European level.  The evaluation of potential impacts on any commercial sea fishing activities needs to be given full consideration. Engagement with the fishing industry and other relevant stakeholders should occur as early as possible in planning or proposal-related processes to afford a chance for proper consideration of the industry’s views.",
-	  "members": [
-	{
-		  "type": "group",
-	  "isOpen": false,
-	  "name": "Effort",
-	  "members": [
-		  {
-      "type": "esri-mapServer",
-      "name": "Beam Trawl Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Beam_Trawl_Fishing_Effort/MapServer/0"
-    },
-				    {
-      "type": "esri-mapServer",
-      "name": "Dredge Trawl Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Dredge_Trawl_Fishing_Effort/MapServer/0"
-    },
-					    {
-      "type": "esri-mapServer",
-      "name": "Pelagic Trawl Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Pelagic_Trawl_Fishing_Effort/MapServer/0"
-    },
-						    {
-      "type": "esri-mapServer",
-      "name": "Long-Line Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Long_Line_Fishing_Effort/MapServer/0"
-    },
-							    {
-      "type": "esri-mapServer",
-      "name": "Pot Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Pot_Fishing_Effort/MapServer/0"
-    },
-								    {
-      "type": "esri-mapServer",
-      "name": "Seines Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Seines_Fishing_Effort/MapServer/0"
-    },
-									    {
-      "type": "esri-mapServer",
-      "name": "Gill Net Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Gill_Net_Fishing_Effort/MapServer/0"
-    },
-										    {
-      "type": "esri-mapServer",
-      "name": "Otter Trawl Fishing Effort",
-      "url": "https://tiles.arcgis.com/tiles/NzlPQPKn5QF9v2US/arcgis/rest/services/Otter_Trawl_Fishing_Effort/MapServer/0"
-    },
-	]
-	},
-		{
-      "type": "esri-featureServer-group",
-      "name": "Species",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Appendix_E_Maps_of_Fish_Spawning_and_Nursery_Grounds/FeatureServer"
-    },
-		{
-      "type": "esri-featureServer-group",
-      "name": "Ports, Harvesting, Distribution",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_16_Fisheries/FeatureServer"
-    },
-	]
-		},
-	{
-      "type": "esri-featureServer-group",
-      "name": "Heritage Assets",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/NMPF_7_3_Heritage_Assets/FeatureServer"
-    },
-		{
-      "type": "esri-featureServer-group",
-      "name": "Protected Marine Sites",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Protected_Marine_Sites/FeatureServer"
-    },
-			{
-      "type": "esri-featureServer-group",
-      "name": "Ports, Harbours, Shipping",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Ports_Harbours_and_Shipping/FeatureServer"
-    },
-				{
-      "type": "esri-featureServer-group",
-      "name": "Sport and Recreation",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Sport_and_Recreation/FeatureServer"
-    },
-					{
-      "type": "esri-featureServer-group",
-      "name": "Sea-floor and Water Column Integrity",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Sea_Floor_and_Water_Column_Integrity/FeatureServer"
-    },
-						{
-      "type": "esri-featureServer-group",
-      "name": "Seascape and Landscape",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Seascape_And_Landscape/FeatureServer"
-    },
-							{
-      "type": "esri-featureServer-group",
-      "name": "Tourism",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Tourism/FeatureServer"
-    },
-								{
-      "type": "esri-featureServer-group",
-      "name": "Water Quality, Wastewater Treatment and Disposal",
-      "url": "https://services.arcgis.com/NzlPQPKn5QF9v2US/ArcGIS/rest/services/Wastewater_Treatment_and_Disposal/FeatureServer"
-    },
-
-	]
-	},
+	
 		 {
 							"type": "group",
 							"isOpen": true,
@@ -1834,6 +1679,7 @@
 }
 ]
 	},
+	
   ],
   "viewerMode": "2d",
  "baseMaps": {
